@@ -1,0 +1,1041 @@
+/*
+Theme Name: Stucco
+Theme URI:  http://www.icynets.com/stucco-clean-free-wordpress-blog-theme/
+Author: icyNETS
+Author URI: http://www.icynets.com/
+Description: Stucco is a clean Responsive WordPress Blog Theme built with bootstrap that adapts your website to mobile devices and the desktop. This theme is perfect for a personal blogging, food, travel, eduction or university blog page. This theme is well designed and does not require any other hard work to set up. Stucco Blog Theme is clean and efficient. Comes with footer widget area. Demo: http://wpthemes.icynets.com/stucco/
+Version: 1.0.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Stucco
+Tags: blog, two-columns, threaded-comments, right-sidebar, custom-background, featured-images, sticky-post, custom-menu, translation-ready
+*/
+
+
+
+html, 
+body{
+	font-family: 'PT Serif', serif;
+	font-size: 100%;
+	margin: 0;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust:     100%;
+}
+
+body a {
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+input[type="button"],
+input[type="submit"],
+input[type="text"],
+input[type="search"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	-webkit-appearance: none;
+	width: 100%;
+}
+input[type="search"]{
+	width: 100%;
+	outline: none;
+	border: 1px solid #ddd;
+	padding: 0em 0.6em;
+	font-size: 1em;
+	color: #333333;
+	position: relative;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+textarea {
+	overflow: auto;
+}	
+img {
+	border: 0;
+}
+
+
+a {
+	text-decoration: none;
+	background-color: transparent;
+	color: #444444;
+}
+a:focus,
+a:hover{
+	text-decoration:none;
+	color: #971D0C;
+}
+label{
+	margin:0;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040; 
+	font-family: 'PT Serif', serif;
+	font-size: 16px;
+	*font-size: 1rem;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	margin:0;
+	font-family: 'Playfair Display', serif;
+	font-weight: 600;
+}
+
+
+p{
+	margin:0;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+strong{
+	font-weight: bold;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+blockquote,
+q {
+	quotes: "" "";
+}
+
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+	box-sizing: content-box;
+}
+
+ul,
+ol {
+	margin: 0 0 1.5em 15px;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+/*--------------------------------------------------------------
+# Breadcrumb
+--------------------------------------------------------------*/
+.breadcrumb {
+	clear: both;
+	padding: 0;
+	overflow: hidden;
+	padding-top: 10px;
+	background: #fff;
+}
+.breadcrumb, 
+.breadcrumb> div, 
+.breadcrumb .fa-caret-right, 
+.breadcrumb .root a {
+	float: none;
+}
+.breadcrumb .root {
+	padding: 0;
+}
+.breadcrumb>div {
+	padding: 0 5px;
+	float: none;
+	display: inline-block;
+}
+
+/*--------------------------------------------------------------
+# Basic
+--------------------------------------------------------------*/
+.btn{
+	margin-top:10px;
+}
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+body.show-main-menu #main-menu {
+    right: 0px;
+}
+.main-navigation {
+	clear: both;
+	display: block;
+	*height: 58px;
+   	background-color: #971D0C;
+	width: 100%;
+}
+
+.main-navigation.border-bottom {
+	border-bottom: 2px solid #FFFFFF;
+}
+
+.main-navigation ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+.main-navigation ul.nav-menu {
+    
+}
+
+.main-navigation li {
+	position: relative;
+	display: block;
+    float: left;
+}
+.main-navigation ul.nav-menu > li {
+    float: left;
+}
+
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 19px 22px 16px;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	text-align: center;
+    font-family: 'Playfair Display', PT Serif;
+    -webkit-transition: color 0.2s ease 0s, background-color 0.2s ease 0s;
+     -moz-transition: color 0.2s ease 0s, background-color 0.2s ease 0s;
+      -ms-transition: color 0.2s ease 0s, background-color 0.2s ease 0s;
+       -o-transition: color 0.2s ease 0s, background-color 0.2s ease 0s;
+          transition: color 0.2s ease 0s, background-color 0.2s ease 0s;
+}
+.main-navigation a:hover {
+    color: #FFF;
+	text-decoration: none;
+}
+
+.main-navigation ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    background-color: #971D0C;
+	border-top: 2px solid #FFFFFF;
+	float: left;
+	position: absolute;
+	top: 56px;
+	left: -99999px;
+	z-index: 99999;
+}
+
+.main-navigation ul ul ul {
+	left: -99999px;
+	top: 0;
+}
+
+.main-navigation ul ul a {
+	width: 200px;
+	text-transform: none;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03);
+	white-space: nowrap;
+	text-align: left;
+	width: auto;
+	padding: 15px 32px 15px 20px;
+	min-width: 190px;
+}
+
+.main-navigation ul ul li {
+	width: 100%;
+}
+
+.main-navigation li:hover > a {
+}
+
+.main-navigation ul ul :hover > a {
+}
+
+.main-navigation ul ul a:hover {
+}
+
+.main-navigation ul li:hover > ul {
+	left: auto;
+}
+
+.main-navigation ul ul li:hover > ul {
+	left: 100%;
+}
+
+.main-navigation li.current-menu-item > a,
+.main-navigation li.current_page_item > a,
+.main-navigation li.current-menu-parent > a,
+.main-navigation li.current_page_parent > a,
+.main-navigation li.current-menu-ancestor > a,
+.main-navigation li.current_page_ancestor > a {
+    color: #FFF;
+}
+
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a {
+}
+
+.main-navigation a:hover,
+.main-navigation li.current-menu-item > a,
+.main-navigation li.current_page_item > a,
+.main-navigation li.current-menu-parent > a,
+.main-navigation li.current_page_parent > a,
+.main-navigation li.current-menu-ancestor > a,
+.main-navigation li.current_page_ancestor > a,
+.main-navigation button {
+	background: #881A0B;
+}
+
+/* ---- Mobile Menu ---- */
+
+.header-menu-button,
+.main-menu-close {
+    display: none;
+}
+
+.menu-dropdown-btn {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 10px 14px;
+	padding: 6px 11px 5px 14px;
+	height: 33px;
+	line-height: 15px;
+	text-align: center;
+	font-size: 28px;
+	z-index: 9;
+	cursor: pointer;
+    -webkit-transition: all 0.2s ease 0s;
+     -moz-transition: all 0.2s ease 0s;
+      -ms-transition: all 0.2s ease 0s;
+       -o-transition: all 0.2s ease 0s;
+          transition: all 0.2s ease 0s;
+}
+.menu-dropdown-btn:hover .fa {
+	font-weight: 700 !important;
+	
+}
+.main-navigation li.current-menu-item > .menu-dropdown-btn,
+.main-navigation li.current_page_item > .menu-dropdown-btn,
+.main-navigation li.current-menu-parent > .menu-dropdown-btn,
+.main-navigation li.current_page_parent > .menu-dropdown-btn,
+.main-navigation li.current-menu-ancestor > .menu-dropdown-btn,
+.main-navigation li.current_page_ancestor > .menu-dropdown-btn {
+	color: #FFFFFF;
+}
+
+.main-navigation ul ul .menu-dropdown-btn {
+	padding: 2px 11px 5px 14px;
+}
+
+/* Small menu */
+.menu-toggle {
+	display: none;
+}
+
+@media only screen and (max-width: 960px) {
+	/* -------- Mobile Menu -------- */
+
+	/* Menu toggle button */
+    .header-menu-button {
+	    display: block;
+	    padding: 16px 18px;
+	    color: #FFF;
+	    text-transform: uppercase;
+    	text-align: center;
+	    cursor: pointer;
+	}
+	.header-menu-button .fa.fa-bars {
+    	font-size: 28px;
+		color: #FFFFFF;
+	}
+	
+	/* Menu close button */
+    .main-menu-close {
+        display: block;
+    	background-color: rgba(0, 0, 0, 0.2);
+    	border-radius: 100%;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        font-size: 26px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 0 6px 0 10px;
+        height: 36px;
+    	width: 36px;
+        line-height: 33px;
+        cursor: pointer;
+    	
+	    -webkit-transition: all 0.2s ease 0s;
+	     -moz-transition: all 0.2s ease 0s;
+	      -ms-transition: all 0.2s ease 0s;
+	       -o-transition: all 0.2s ease 0s;
+	          transition: all 0.2s ease 0s;
+
+    }
+    .main-menu-close:hover .fa {
+    	font-weight: 700 !important;
+	}
+	.main-menu-close .fa-angle-left {
+        position: relative;
+        left: -4px;
+    }
+	
+    .main-navigation ul {
+        display: block;
+    }
+
+    .main-navigation #main-menu {
+        color: #FFFFFF;
+        box-shadow: 1px 0 1px rgba(255, 255, 255, 0.04) inset;
+        position: fixed;
+        background-color: #971D0C;
+        top: 0;
+        right: -280px;
+        width: 280px;
+        max-width: 100%;
+        -ms-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 70px 0 30px 0;
+        z-index: 100000;
+        height: 100%;
+        overflow: auto;
+        -webkit-transition: right 0.4s ease 0s;
+        -moz-transition: right 0.4s ease 0s;
+        -ms-transition: right 0.4s ease 0s;
+        -o-transition: right 0.4s ease 0s;
+        transition: right 0.4s ease 0s;
+    }
+    #main-menu .menu {
+    	border-top-width: 1px;
+    	border-top-style: solid;
+	}
+    #main-menu.stucco-mobile-menu-standard-color-scheme .menu {
+    	border-top-color: #FFFFFF;
+	}
+	.main-navigation li {
+        display: block;
+        float: none;
+        position: relative;
+    }
+    .main-navigation li a {
+    	white-space: normal !important;
+    	border-bottom-width: 1px;
+    	border-bottom-style: solid;
+		box-shadow: none;
+		display: block;
+		color: #FFFFFF;
+        float: none;
+        padding: 10px 22px;
+        font-size: 14px;
+        text-align: left;
+  	}
+    #main-menu.stucco-mobile-menu-standard-color-scheme li a {
+    	border-bottom-color: #FFFFFF;
+	}
+    #main-menu.stucco-mobile-menu-standard-color-scheme li a:hover {
+    	background-color: rgba(0, 0, 0, 0.2); 
+  	}
+    .main-navigation ul ul a {
+    	text-transform: none;
+  	}
+    .main-navigation ul ul li:last-child a,
+    .main-navigation ul ul li a {
+        padding: 6px 30px;
+        width: auto;
+    }
+    .main-navigation ul ul ul li a {
+        padding: 6px 39px !important;
+    }
+    .main-navigation ul ul ul ul li a {
+        padding: 6px 47px !important;
+    }
+    .main-navigation ul ul ul ul ul li a {
+        padding: 6px 55px !important;
+    }
+
+    .main-navigation ul ul {
+        position: relative !important;
+    	box-shadow: none;
+        top: 0 !important;
+        left: 0 !important;
+        float: none !important;
+        padding: 0;
+        margin: 0;
+        display: none;
+    	border-top: none;
+    }
+	.main-navigation ul ul ul {
+		left: 0 !important;
+	}
+	.menu-dropdown-btn {
+    	display: block;
+    }
+    .open-page-item > ul.children,
+    .open-page-item > ul.sub-menu {
+    	display: block !important;
+    }
+    .open-page-item .fa-angle-down {
+		color: #FFFFFF;
+    	font-weight: 700 !important;
+    }
+    
+    /* 1st level selected item */
+    #main-menu.stucco-mobile-menu-standard-color-scheme a:hover,
+	#main-menu.stucco-mobile-menu-standard-color-scheme li.current-menu-item > a,
+	#main-menu.stucco-mobile-menu-standard-color-scheme li.current_page_item > a,
+	#main-menu.stucco-mobile-menu-standard-color-scheme li.current-menu-parent > a,
+	#main-menu.stucco-mobile-menu-standard-color-scheme li.current_page_parent > a,
+	#main-menu.stucco-mobile-menu-standard-color-scheme li.current-menu-ancestor > a,
+	#main-menu.stucco-mobile-menu-standard-color-scheme li.current_page_ancestor > a {
+		*background-color: #881A0B !important;
+	}
+
+	/* 2nd level selected item */
+	#main-menu.stucco-mobile-menu-standard-color-scheme ul ul li.current-menu-item > a,
+	#main-menu.stucco-mobile-menu-standard-color-scheme ul ul li.current_page_item > a,
+	#main-menu.stucco-mobile-menu-standard-color-scheme ul ul li.current-menu-parent > a,
+	#main-menu.stucco-mobile-menu-standard-color-scheme ul ul li.current_page_parent > a,
+	#main-menu.stucco-mobile-menu-standard-color-scheme ul ul li.current-menu-ancestor > a,
+	#main-menu.stucco-mobile-menu-standard-color-scheme ul ul li.current_page_ancestor > a {
+		*background-color: #881A0B;
+	}
+	
+	/* 3rd level selected item */
+	#main-menu.stucco-mobile-menu-standard-color-scheme ul ul ul li.current-menu-item > a,
+	#main-menu.stucco-mobile-menu-standard-color-scheme ul ul ul li.current_page_item > a,
+	#main-menu.stucco-mobile-menu-standard-color-scheme ul ul ul li.current-menu-parent > a,
+	#main-menu.stucco-mobile-menu-standard-color-scheme ul ul ul li.current_page_parent > a,
+	#main-menu.stucco-mobile-menu-standard-color-scheme ul ul ul li.current-menu-ancestor > a,
+	#main-menu.stucco-mobile-menu-standard-color-scheme ul ul ul li.current_page_ancestor > a {
+		*background-color: #881A0B;
+	}
+}
+
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+	margin: 0 0 1.5em;
+	overflow: hidden;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+	float: left;
+	width: 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+.site-main .post-navigation{
+	margin: 40px 0;
+}
+.post-navigation .nav-next a,
+.post-navigation .nav-previous a{
+	font-weight:600;
+	font-family: 'Playfair Display', PT Serif;
+}
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+	clear: both;
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.site-content .sidebar{
+	background: #fff;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+.widget {
+	margin: 0 0 1.5em;
+}
+
+/* Make sure select elements fit in widgets. */
+.widget select, 
+.widget-area input[type="search"] {
+	width: 100%;
+}
+
+.widget_search label {
+/*make search field fill 100% of space*/
+  display: inline;
+  margin-bottom: .5rem;
+}
+.widget-area .search-field {
+    float: left;
+    height: 40px;
+    text-indent: 10px;
+    *color: #919191;
+    background: #eee;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    width: 100%;
+}
+
+/* Widget Recent Posts*/
+.widget_meta li,
+.widget_archive li,
+.widget_categories li,
+.widget_recent_entries li,
+.widget_recent_comments li{
+	font-weight:bold;	
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-bottom: 1px solid transparent;
+	border-top: 2px solid transparent;
+	border-left: 5px solid #ddd;
+	padding-left: 10px;
+	-webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+	-ms-transition:all 0.2s ease;
+	transition:all 0.2s ease;
+}
+.widget_recent_entries span {
+	*display:block;
+	*font-weight:bold;	
+}
+.widget_meta li:hover,
+.widget_categories li:hover,
+.widget_archive li:hover,
+.widget_recent_entries li:hover,
+.widget_recent_comments li:hover{
+	border-left: 10px solid #971D0C;
+	border-bottom: 1px solid #971D0C;
+	border-top: 2px solid transparent;
+}
+
+.widget_meta li:hover a,
+.widget_categories li:hover a,
+.widget_recent_entries li:hover a,
+.widget_recent_comments li:hover,
+.widget_archive li:hover{
+	color: #971D0C;
+}
+.widget_recent_entries li a,
+.widget_recent_comments li a{
+	font-weight: bold;
+}
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.content-page{
+	background: #fff;
+	padding: 20px;
+}
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published) {
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	*margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+	font-weight: bold;
+}
+.page-links a {
+	color: #971D0C;
+
+}
+.tags-links a{
+	background: #ddd;
+	padding: 3px 10px;
+	margin-right: 10px;
+	display: inline-block;
+	margin-bottom: 3px;
+}
+/*--------------------------------------------------------------
+## Asides
+--------------------------------------------------------------*/
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+	display: none;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
+.infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery{
+	margin:0 -1.1666667% 1.75em
+}
+.gallery .gallery-item{
+	display:inline-block;
+	max-width:33.33%;
+	padding:0 1.1400652% 2.2801304%;
+	text-align:center;
+	vertical-align:top;
+	width:100%
+}
+.gallery-columns-1 .gallery-item{
+	max-width:100%
+}
+.gallery-columns-2 .gallery-item{
+	max-width:50%
+}
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+.gallery-columns-4 .gallery-item{
+	max-width:25%
+}
+.gallery-columns-5 .gallery-item{
+	max-width:20%
+}
+.gallery-columns-6 .gallery-item{
+	max-width:16.66%
+}
+.gallery-columns-7 .gallery-item{
+	max-width:14.28%
+}
+.gallery-columns-8 .gallery-item{
+	max-width:12.5%
+}
+.gallery-columns-9 .gallery-item{
+	max-width:11.11%
+}
+.gallery-icon img{
+	margin:0 auto
+}
+.gallery .gallery-caption{
+	color:#686868;
+	display:block;
+	font-size:13px;
+	font-style:italic;
+	line-height:1.6153846154;
+	padding-top:.5384615385em
+}
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption{
+	display:none
+}
+-----------
+.gallery {
+	margin-bottom: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	display: inline-block;
+}
+

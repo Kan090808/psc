@@ -1,0 +1,2588 @@
+# Translation of Plugins - Gutenberg - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-02 05:27:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
+
+#: lib/compat.php:251
+msgid "Continue to Classic Editor"
+msgstr "繼續使用傳統編輯器"
+
+#: lib/compat.php:251
+msgid "Close this dialog, and edit the post in the classic editor"
+msgstr "關閉這個對話方塊，並在傳統編輯器中編輯內容。"
+
+#: lib/compat.php:250
+msgid "Edit in Gutenberg"
+msgstr "在 Gutenberg 中編輯"
+
+#: lib/compat.php:250
+msgid "Open this post in the Gutenberg block editor"
+msgstr "在 Gutenberg 區塊編輯器中開啟這篇文章"
+
+#: lib/compat.php:244
+msgid "Because this post does not have revisions, you will not be able to revert any changes you make in the Classic Editor."
+msgstr "由於這篇內容尚無內容修訂，因此無法還原在傳統編輯器中的變更。"
+
+#. translators: link to the post revisions page
+#: lib/compat.php:238
+msgid "You can also <a href=\"%s\">browse previous revisions</a> and restore a version of the page before it was edited in Gutenberg."
+msgstr "你可以<a href=\"%s\">瀏覽之前的內容修訂</a>，並將之還原為最後在 Gutenberg 中編輯的內容。"
+
+#: lib/compat.php:231
+msgid "This post was previously edited in Gutenberg. You can continue in the Classic Editor, but you may lose data and formatting."
+msgstr "這篇內容之前是以 Gutenberg 進行編輯，你可以選擇在傳統編輯器中繼續編輯，但可能會遺失若干資料及格式。"
+
+#: lib/class-wp-rest-search-controller.php:358
+msgid "Invalid type parameter."
+msgstr "無效的類型參數。"
+
+#: lib/class-wp-rest-search-controller.php:303
+msgid "Limit results to items of one or more object subtypes."
+msgstr "將結果限制為一個或多個物件子類型的項目。"
+
+#: lib/class-wp-rest-search-controller.php:296
+msgid "Limit results to items of an object type."
+msgstr "將結果限制為物件類型的項目。"
+
+#: lib/class-wp-rest-search-controller.php:260
+msgid "Object subtype."
+msgstr "物件子類型。"
+
+#: lib/class-wp-rest-search-controller.php:253
+msgid "Object type."
+msgstr "物件類型。"
+
+#: lib/class-wp-rest-search-controller.php:246
+msgid "URL to the object."
+msgstr "物件的網址。"
+
+#: lib/class-wp-rest-search-controller.php:240
+msgid "The title for the object."
+msgstr "物件的標題。"
+
+#: lib/class-wp-rest-search-controller.php:234
+msgid "Unique identifier for the object."
+msgstr "物件的唯一識別碼。"
+
+#: lib/class-wp-rest-search-controller.php:149
+msgid "The page number requested is larger than the number of pages available."
+msgstr "要求的頁碼大於實際頁數。"
+
+#: lib/class-wp-rest-search-controller.php:132
+msgid "Internal search handler error."
+msgstr "內部搜尋處理常式錯誤。"
+
+#. translators: %s: PHP class name
+#: lib/class-wp-rest-search-controller.php:72
+msgid "REST search handlers must extend the %s class."
+msgstr "REST 搜尋處理常式必須擴充 %s 類別。"
+
+#: languages/gutenberg-translations.php:1685
+msgid "Untitled Reusable Block"
+msgstr "未命名的可重複使用區塊"
+
+#: languages/gutenberg-translations.php:1637
+msgid "XL"
+msgstr "超大"
+
+#: languages/gutenberg-translations.php:1634
+msgid "larger"
+msgstr "較大"
+
+#: languages/gutenberg-translations.php:1631
+msgid "L"
+msgstr "大"
+
+#: languages/gutenberg-translations.php:1628
+msgid "large"
+msgstr "大"
+
+#: languages/gutenberg-translations.php:1625
+msgid "M"
+msgstr "中"
+
+#: languages/gutenberg-translations.php:1622
+msgid "regular"
+msgstr "一般"
+
+#: languages/gutenberg-translations.php:1619
+msgid "S"
+msgstr "小"
+
+#: languages/gutenberg-translations.php:1616
+msgid "small"
+msgstr "小"
+
+#: languages/gutenberg-translations.php:1263
+msgid "(%s: %s)"
+msgstr "(%s: %s)"
+
+#: languages/gutenberg-translations.php:1230
+msgid "Reusable"
+msgstr "可重複使用"
+
+#: languages/gutenberg-translations.php:1165
+msgid "(current %s: %s)"
+msgstr "(目前 %s: %s)"
+
+#: languages/gutenberg-translations.php:1145
+msgid "Remove from Reusable Blocks"
+msgstr "從可重複使用區塊中移除"
+
+#: languages/gutenberg-translations.php:1139
+msgid "Add to Reusable Blocks"
+msgstr "新增至可重複使用區塊"
+
+#: languages/gutenberg-translations.php:1076
+msgid "This block has been modified externally."
+msgstr "這個區塊已經由外部修改。"
+
+#: languages/gutenberg-translations.php:1073
+msgid "Keep as HTML"
+msgstr "保留 HTML 程式碼"
+
+#: languages/gutenberg-translations.php:211
+msgid "Edit URL"
+msgstr "編輯網址"
+
+#: languages/gutenberg-translations.php:95
+msgid "Color Settings"
+msgstr "色彩設定"
+
+#. translators: %s: title/name of the reusable block
+#: languages/gutenberg-translations.php:91
+msgid "Reusable Block: %s"
+msgstr "可重複使用區塊: %s"
+
+#: lib/rest-api.php:267
+msgid "The current user can post HTML markup and JavaScript."
+msgstr "目前的使用者具有發佈 HTML 標籤及 JavaScript 的權限。"
+
+#: languages/gutenberg-translations.php:909
+msgid "The response is not a valid JSON response."
+msgstr "無效的 JSON 回應。"
+
+#. translators: accessibility text for the publish landmark region.
+#: languages/gutenberg-translations.php:805
+msgid "Editor publish"
+msgstr "編輯器發佈"
+
+#: languages/gutenberg-translations.php:757
+msgid "Muted"
+msgstr "靜音"
+
+#: languages/gutenberg-translations.php:754
+msgid "Video Settings"
+msgstr "視訊設定"
+
+#: languages/gutenberg-translations.php:497
+msgid "recent comments"
+msgstr "最新留言"
+
+#: languages/gutenberg-translations.php:491
+msgid "Latest Comments"
+msgstr "最新留言"
+
+#: languages/gutenberg-translations.php:488
+msgid "Display excerpt"
+msgstr "顯示摘要"
+
+#: languages/gutenberg-translations.php:485
+msgid "Display date"
+msgstr "顯示日期"
+
+#: languages/gutenberg-translations.php:482
+msgid "Display avatar"
+msgstr "顯示個人頭像"
+
+#: languages/gutenberg-translations.php:479
+msgid "Latest Comments Settings"
+msgstr "最新留言設定"
+
+#: languages/gutenberg-translations.php:476
+msgid "Number of comments"
+msgstr "留言顯示筆數"
+
+#: languages/gutenberg-translations.php:195
+msgid "Background Opacity"
+msgstr "背景不透明度"
+
+#: languages/gutenberg-translations.php:41
+msgid "Auto"
+msgstr "自動播放"
+
+#: languages/gutenberg-translations.php:38
+msgid "Preload"
+msgstr "預先載入"
+
+#: languages/gutenberg-translations.php:27
+msgid "Audio Settings"
+msgstr "音訊設定"
+
+#: languages/gutenberg-translations.php:21
+msgid "Display a monthly archive of your site’s Posts."
+msgstr "顯示網站文章的每月彙整。"
+
+#: languages/gutenberg-translations.php:15
+msgid "Display as Dropdown"
+msgstr "顯示為下拉式選單"
+
+#: languages/gutenberg-translations.php:12
+msgid "Show Post Counts"
+msgstr "顯示文章計數"
+
+#: languages/gutenberg-translations.php:9
+msgid "Archives Settings"
+msgstr "彙整設定"
+
+#: gutenberg.php:71
+msgid "https://wordpress.org/support/plugin/gutenberg"
+msgstr "https://wordpress.org/support/plugin/gutenberg"
+
+#: gutenberg.php:69
+msgid "Support"
+msgstr "技術支援"
+
+#: core-blocks/latest-comments/index.php:132
+msgid "No comments to show."
+msgstr "尚無留言可供顯示。"
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: core-blocks/latest-comments/index.php:88
+msgid "%1$s on %2$s"
+msgstr "「%1$s」於《%2$s》中發佈了留言"
+
+#: core-blocks/archives/index.php:51
+msgid "Select Post"
+msgstr "選擇文章"
+
+#: core-blocks/archives/index.php:48
+msgid "Select Week"
+msgstr "選擇週次"
+
+#: core-blocks/archives/index.php:45
+msgid "Select Day"
+msgstr "選擇日期"
+
+#: core-blocks/archives/index.php:42
+msgid "Select Month"
+msgstr "選擇月份"
+
+#: core-blocks/archives/index.php:39
+msgid "Select Year"
+msgstr "選擇年份"
+
+#: core-blocks/archives/index.php:24 languages/gutenberg-translations.php:18
+msgid "Archives"
+msgstr "彙整"
+
+#: languages/gutenberg-translations.php:1613
+msgid "very dark gray"
+msgstr "暗灰色"
+
+#: languages/gutenberg-translations.php:1610
+msgid "cyan bluish gray"
+msgstr "青藍灰色"
+
+#: languages/gutenberg-translations.php:1607
+msgid "very light gray"
+msgstr "亮灰色"
+
+#: languages/gutenberg-translations.php:1604
+msgid "vivid cyan blue"
+msgstr "鮮青藍色"
+
+#: languages/gutenberg-translations.php:1601
+msgid "pale cyan blue"
+msgstr "淡青藍色"
+
+#: languages/gutenberg-translations.php:1598
+msgid "vivid green cyan"
+msgstr "鮮綠青色"
+
+#: languages/gutenberg-translations.php:1595
+msgid "light green cyan"
+msgstr "亮綠青色"
+
+#: languages/gutenberg-translations.php:1592
+msgid "luminous vivid amber"
+msgstr "亮鮮琥珀色"
+
+#: languages/gutenberg-translations.php:1589
+msgid "luminous vivid orange"
+msgstr "亮鮮橘色"
+
+#: languages/gutenberg-translations.php:1586
+msgid "vivid red"
+msgstr "鮮紅色"
+
+#: languages/gutenberg-translations.php:1583
+msgid "pale pink"
+msgstr "淡粉色"
+
+#: languages/gutenberg-translations.php:1517
+msgid "Inline Elements"
+msgstr "內嵌元素"
+
+#: languages/gutenberg-translations.php:1496
+msgid "Inline Image"
+msgstr "內嵌圖片"
+
+#: languages/gutenberg-translations.php:1224
+msgid "Available block types"
+msgstr "可用區塊類型"
+
+#: languages/gutenberg-translations.php:1182
+msgid "Welcome to the wonderful world of blocks! Click the “+” (“Add block”) button to add a new block. There are blocks available for all kind of content: you can insert text, headings, images, lists, and lots more!"
+msgstr "歡迎進入超棒的內容區塊領域。點擊 [+] (代表 [新增區塊]) 按鈕，便能插入不同類型的內容區塊。編輯器內建了許多適用於所有內容的區塊，可以插入文字、標題、圖片、清單等等。"
+
+#: languages/gutenberg-translations.php:1159
+msgid "Transform To:"
+msgstr "轉換成其他類型區塊:"
+
+#: languages/gutenberg-translations.php:1153
+msgid "Apply style variation \"%s\""
+msgstr "套用樣式變體 %s"
+
+#: languages/gutenberg-translations.php:1130
+msgid "Remove Block"
+msgstr "移除區塊"
+
+#: languages/gutenberg-translations.php:801
+msgid "Open publish panel"
+msgstr "開啟 [發佈] 面板"
+
+#: languages/gutenberg-translations.php:656
+msgid "Dots"
+msgstr "點狀線段"
+
+#: languages/gutenberg-translations.php:653
+msgid "Wide Line"
+msgstr "長線段"
+
+#: languages/gutenberg-translations.php:650
+msgid "Short Line"
+msgstr "短線段"
+
+#: languages/gutenberg-translations.php:635
+msgid "Large"
+msgstr "大型文字"
+
+#: languages/gutenberg-translations.php:632
+msgid "Regular"
+msgstr "一般大小文字"
+
+#: languages/gutenberg-translations.php:467
+msgid "Link URL"
+msgstr "連結網址"
+
+#: languages/gutenberg-translations.php:429
+msgid "Custom URL"
+msgstr "自訂網址"
+
+#: languages/gutenberg-translations.php:334
+msgid "Show Download Button"
+msgstr "顯示下載按鈕"
+
+#: languages/gutenberg-translations.php:331
+msgid "Download Button Settings"
+msgstr "下載按鈕設定"
+
+#: languages/gutenberg-translations.php:328
+msgid "Open in New Window"
+msgstr "在新視窗中開啟"
+
+#: languages/gutenberg-translations.php:325
+msgid "Link To"
+msgstr "連結目標"
+
+#: languages/gutenberg-translations.php:321
+msgid "Text Link Settings"
+msgstr "文字連結設定"
+
+#: languages/gutenberg-translations.php:304
+msgid "The download button is hidden."
+msgstr "目前設定為隱藏下載按鈕。"
+
+#: languages/gutenberg-translations.php:301
+msgid "The download button is shown."
+msgstr "目前設定為顯示下載按鈕。"
+
+#: languages/gutenberg-translations.php:298
+msgid "Download"
+msgstr "下載"
+
+#: languages/gutenberg-translations.php:295
+msgid "pdf"
+msgstr " PDF"
+
+#: languages/gutenberg-translations.php:292
+msgid "document"
+msgstr "文件"
+
+#: languages/gutenberg-translations.php:289
+msgid "Add a link to a file that visitors can download."
+msgstr "新增可供訪客下載單一檔案的連結。"
+
+#: languages/gutenberg-translations.php:286
+msgid "Copy URL"
+msgstr "複製網址"
+
+#: languages/gutenberg-translations.php:278
+msgid "Write file name…"
+msgstr "輸入檔案名稱…"
+
+#: languages/gutenberg-translations.php:275
+msgid "Edit file"
+msgstr "編輯檔案"
+
+#: languages/gutenberg-translations.php:272
+msgid "a file"
+msgstr "單一檔案"
+
+#: languages/gutenberg-translations.php:269
+msgid "File"
+msgstr "檔案"
+
+#: languages/gutenberg-translations.php:166
+msgid "A single column within a columns block."
+msgstr "內容欄區塊中的單一內容欄。"
+
+#: languages/gutenberg-translations.php:163
+msgid "Column"
+msgstr "單一內容欄"
+
+#: languages/gutenberg-translations.php:126
+msgid "Squared"
+msgstr "矩形按鈕"
+
+#: languages/gutenberg-translations.php:123
+msgid "Outline"
+msgstr "外框按鈕"
+
+#: languages/gutenberg-translations.php:120
+msgid "Rounded"
+msgstr "圓角按鈕"
+
+#: languages/gutenberg-translations.php:35
+msgid "Loop"
+msgstr "重複播放"
+
+#: languages/gutenberg-translations.php:31
+msgid "Autoplay"
+msgstr "自動播放"
+
+#: languages/gutenberg-translations.php:760
+msgid "Playback Controls"
+msgstr "播放控制項"
+
+#: languages/gutenberg-translations.php:992
+msgid "Close dialog"
+msgstr "關閉對話方塊"
+
+#: languages/gutenberg-translations.php:1692
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "很抱歉，基於安全性考量，系統不接受這個檔案類型。"
+
+#: languages/gutenberg-translations.php:1714
+msgid "Disable tips"
+msgstr "停用使用提示"
+
+#: languages/gutenberg-translations.php:1711
+msgid "Got it"
+msgstr "完全瞭解"
+
+#: languages/gutenberg-translations.php:1708
+msgid "See next tip"
+msgstr "檢視下一個使用提示"
+
+#: languages/gutenberg-translations.php:1705
+msgid "Gutenberg tips"
+msgstr "Gutenberg 使用提示"
+
+#: languages/gutenberg-translations.php:1408
+msgid "Finished writing? That’s great, let’s get this published right now. Just click ‘Publish’ and you’re good to go."
+msgstr "內容撰寫完成了嗎？相當不錯，這代表內容可以立即發佈。只要點擊 [發佈] 便能完成內容發佈。"
+
+#: languages/gutenberg-translations.php:1393
+msgid "When you’re ready, submit your work for review, and an Editor will be able to approve it for you."
+msgstr "內容撰寫完成後，請將該篇內容送交審閱，任何一位具有 [編輯] 權限的使用者都能為你的內容進行核准。"
+
+#: languages/gutenberg-translations.php:1387
+msgid "Are you ready to submit for review?"
+msgstr "確定要將這篇內容送交審查？"
+
+#: languages/gutenberg-translations.php:1339
+msgid "Click ‘Preview’ to load a preview of this page, so you can make sure you’re happy with your blocks."
+msgstr "點擊 [預覽] 便可載入這篇內容的預覽結果，內容作者可透過預覽結果確認使用的區塊是否合宜。"
+
+#: languages/gutenberg-translations.php:1284
+msgid "Replace image"
+msgstr "取代圖片"
+
+#: languages/gutenberg-translations.php:1278
+msgid "Remove image"
+msgstr "移除圖片"
+
+#: languages/gutenberg-translations.php:1133
+msgid "Hide Options"
+msgstr "隱藏設定"
+
+#: languages/gutenberg-translations.php:798
+msgid "Show Tips"
+msgstr "顯示使用提示"
+
+#: languages/gutenberg-translations.php:780
+msgid "You’ll find more settings for your page and blocks in the sidebar. Click ‘Settings’ to open it."
+msgstr "撰寫內容時，可以在側邊欄找到更多頁面及區塊的設定。點擊 [設定] 便可開啟。"
+
+#: lib/class-wp-rest-autosaves-controller.php:271
+msgid "Preview link for the post."
+msgstr "文章的預覽連結。"
+
+#: lib/class-wp-rest-autosaves-controller.php:322
+msgid "There is nothing to save. The autosave and the post content are the same."
+msgstr "沒有變更可供儲存。自動儲存的內容與文章內容完全相同。"
+
+#: lib/class-wp-rest-autosaves-controller.php:222
+msgid "There is no autosave revision for this post."
+msgstr "這篇文章沒有自動儲存的內容修訂。"
+
+#: lib/class-wp-rest-autosaves-controller.php:216
+msgid "Invalid parent post ID."
+msgstr "無效的上層文章 ID。"
+
+#: lib/class-wp-rest-autosaves-controller.php:152
+msgid "Invalid item ID."
+msgstr "無效的項目 ID。"
+
+#: lib/class-wp-rest-autosaves-controller.php:108
+msgid "The ID for the object."
+msgstr "物件 ID。"
+
+#: lib/class-wp-rest-autosaves-controller.php:80
+#: lib/class-wp-rest-autosaves-controller.php:104
+msgid "The ID for the parent of the object."
+msgstr "上層物件的 ID。"
+
+#. translators: %s: file name
+#: languages/gutenberg-translations.php:1702
+msgid "Error while uploading file %s to the media library."
+msgstr "上傳 %s 至媒體庫時發生錯誤。"
+
+#. translators: %s: file name
+#: languages/gutenberg-translations.php:1697
+msgid "%s exceeds the maximum upload size for this site."
+msgstr "%s 已超過這個網站的檔案上傳大小限制。"
+
+#: languages/gutenberg-translations.php:1643
+msgid "View the autosave"
+msgstr "檢視自動儲存"
+
+#: languages/gutenberg-translations.php:1640
+msgid "There is an autosave of this post that is more recent than the version below."
+msgstr "這篇文章的自動儲存版本較下列版本更新。"
+
+#: languages/gutenberg-translations.php:1417
+msgid "Autosaving"
+msgstr "自動儲存中"
+
+#: languages/gutenberg-translations.php:1236
+msgid "Drag %s, upload a new one or select a file from your library."
+msgstr "拖曳%s、上傳新檔案或從媒體庫選取檔案。"
+
+#: languages/gutenberg-translations.php:1239
+msgid "Enter URL here…"
+msgstr "在這裡輸入網址…"
+
+#: languages/gutenberg-translations.php:1227
+msgid "Most Used"
+msgstr "最常使用"
+
+#: languages/gutenberg-translations.php:748
+msgid "a video"
+msgstr "視訊"
+
+#: languages/gutenberg-translations.php:202
+msgid "an image"
+msgstr "圖片"
+
+#: languages/gutenberg-translations.php:179
+msgid "beta"
+msgstr "測試版"
+
+#: languages/gutenberg-translations.php:64
+msgid "an audio"
+msgstr "音訊"
+
+#: lib/rest-api.php:491
+msgid "Sorry, you are not allowed make unbounded queries."
+msgstr "很抱歉，你沒有進行無限制查詢的權限。"
+
+#: lib/rest-api.php:351
+msgid "The current user can assign terms."
+msgstr "目前的使用者具有指派分類法項目的權限。"
+
+#: lib/rest-api.php:335
+msgid "The current user can create terms."
+msgstr "目前的使用者具有建立分類法項目的權限。"
+
+#: lib/rest-api.php:305
+msgid "The current user can sticky this post."
+msgstr "目前的使用者具有將這篇文章置頂的權限。"
+
+#: lib/rest-api.php:284
+msgid "The current user can publish this post."
+msgstr "目前的使用者具有發佈這篇內容的權限。"
+
+#: lib/rest-api.php:250
+msgid "The current user can change the author on this post."
+msgstr "目前的使用者具有變更這篇文章作者的權限。"
+
+#: languages/gutenberg-translations.php:834
+msgid "Pin to toolbar"
+msgstr "釘選至工具列"
+
+#: languages/gutenberg-translations.php:831
+msgid "Unpin from toolbar"
+msgstr "從工具列取消釘選"
+
+#: languages/gutenberg-translations.php:763
+msgid "Embed a video file and a simple video player."
+msgstr "嵌入視訊檔及簡易播放器。"
+
+#: languages/gutenberg-translations.php:734
+msgid "A block for haiku? Why not? Blocks for all the things! (See what we did here?)"
+msgstr "在這個區塊可以撰寫任何內容，撰寫俳句亦無不可。(瞭解一下我們為這區塊的準備)"
+
+#: languages/gutenberg-translations.php:728
+msgid "Add text, and display it in two or more columns. Like a newspaper! This block is experimental."
+msgstr "新增顯示於兩欄或多欄的文字內容，製作出如報章雜誌般的版面配置。(實驗性功能區塊)"
+
+#: languages/gutenberg-translations.php:698
+msgid "Insert a table -- perfect for sharing charts and data."
+msgstr "插入表格是分享圖表及資料的絕佳方式。"
+
+#: languages/gutenberg-translations.php:692
+msgid "Fixed width table cells"
+msgstr "固定寬度的表格儲存格"
+
+#: languages/gutenberg-translations.php:689
+msgid "Table Settings"
+msgstr "表格設定"
+
+#: languages/gutenberg-translations.php:683
+msgid "What’s a subhead? Smaller than a headline, bigger than basic text."
+msgstr "什麼是子標題？子標題在內容中的位階低於標題，但高於內文。"
+
+#: languages/gutenberg-translations.php:680
+msgid "Subheading"
+msgstr "子標題"
+
+#: languages/gutenberg-translations.php:659
+msgid "Add a shortcode -- a WordPress-specific snippet of code written between square brackets."
+msgstr "這個區塊可加入短代碼。短代碼是一段 WordPress 特有程式碼片段，由撰寫於方括弧間的文字所組成 (例如 [shortcode])。"
+
+#: languages/gutenberg-translations.php:641
+msgid "Insert a horizontal line where you want to create a break between ideas."
+msgstr "在需要分隔不同想法的地方插入一條水平線。"
+
+#: languages/gutenberg-translations.php:629
+msgid "Maybe someone else said it better -- add some quoted text."
+msgstr "其他人的話或許更具說服力，因此加入引文是個不錯的方式。"
+
+#: languages/gutenberg-translations.php:612
+msgid "Highlight a quote from your post or page by displaying it as a graphic element."
+msgstr "在文章或頁面中為引文加上圖形元素，能夠更加強調這段引文。"
+
+#: languages/gutenberg-translations.php:603
+msgid "Add text that respects your spacing and tabs, and also allows styling."
+msgstr "可輸入完全保持空格及定位點不變的文字內容，但亦可套用若干樣式。"
+
+#: languages/gutenberg-translations.php:588
+msgid "Add some basic text."
+msgstr "可加入文字內容的區塊。"
+
+#: languages/gutenberg-translations.php:561
+msgid "Want to show only part of this post on your blog’s home page? Insert a \"More\" block where you want the split."
+msgstr "如需在部落格首頁僅顯示這篇文章的部分內容，請在需要顯示的內容後方插入 [閱讀全文] 標籤。"
+
+#: languages/gutenberg-translations.php:543
+msgid "Numbers, bullets, up to you. Add a list of items."
+msgstr "為項目建立清單，可依需求建立編號清單或項目符號清單。"
+
+#: languages/gutenberg-translations.php:519
+msgid "Display a list of your most recent posts."
+msgstr "顯示網站上最新文章的清單。"
+
+#: languages/gutenberg-translations.php:473
+msgid "They’re worth 1,000 words! Insert a single image."
+msgstr "圖片內容有時勝過千言萬語。[圖片] 區塊用於插入單張圖片。"
+
+#: languages/gutenberg-translations.php:419
+msgid "Add your own HTML (and view it right here as you edit!)."
+msgstr "在區塊中加入自訂 HTML 程式碼，並可在編輯器的區塊中預覽結果。"
+
+#: languages/gutenberg-translations.php:407
+msgid "Insert a headline above your post or page content."
+msgstr "在文章或頁面的上方插入標題。"
+
+#: languages/gutenberg-translations.php:382
+msgid "Display multiple images in an elegantly organized tiled layout."
+msgstr "以井然有序的併排版面配置顯示多張圖片。"
+
+#: languages/gutenberg-translations.php:346
+msgid "It’s the classic WordPress editor and it’s a block! Drop the editor right in."
+msgstr "為內容加入 WordPress 傳統編輯器的區塊，便可在這區塊中直接使用傳統編輯器。"
+
+#. translators: %s: Name of service (e.g. VideoPress, YouTube)
+#: languages/gutenberg-translations.php:262
+msgid "Add a block that displays content pulled from other sites, like Twitter, Instagram or YouTube."
+msgstr "加入可從如 Twitter、Instagram 或 YouTube 等網站擷取內容的區塊。"
+
+#: languages/gutenberg-translations.php:208
+msgid "Add a full-width image, and layer text over it — great for headers."
+msgstr "為內容加入一張全幅寬度的圖片，並可在圖片上加上簡短文字，相當適合呈現為內容頁首。"
+
+#: languages/gutenberg-translations.php:182
+msgid "Add a block that displays content in multiple columns, then add whatever content blocks you’d like."
+msgstr "新增可在多欄顯示內容的區塊，並可在區塊中的欄位加入各式內容。"
+
+#: languages/gutenberg-translations.php:160
+msgid "Add text that respects your spacing and tabs -- perfect for displaying code."
+msgstr "可輸入完全保持空格及定位點不變的文字內容，是顯示程式碼的絕佳方式。"
+
+#: languages/gutenberg-translations.php:150
+msgid "Display a list of all your site’s categories."
+msgstr "顯示網站分類的清單。"
+
+#: languages/gutenberg-translations.php:117
+msgid "Want visitors to click to subscribe, buy, or read more? Get their attention with a button."
+msgstr "想要訪客點擊後便能訂閱、購買或閱讀全文嗎？使用按鈕吸引訪客的注意力，是個很不錯的方式。"
+
+#: languages/gutenberg-translations.php:67
+msgid "Embed an audio file and a simple audio player."
+msgstr "嵌入音訊檔及簡易播放器。"
+
+#: languages/gutenberg-translations.php:1033
+msgid "No results found."
+msgstr "沒有符合條件的結果。"
+
+#. translators: %s: error message describing the problem
+#: languages/gutenberg-translations.php:1030
+msgid "Error loading block: %s"
+msgstr "載入 [%s] 區塊時發生錯誤"
+
+#: lib/rest-api.php:92
+msgid "Embed Handler"
+msgstr "Embed Handler"
+
+#: lib/class-wp-rest-block-renderer-controller.php:153
+msgid "The rendered block."
+msgstr "已轉譯的區塊。"
+
+#: lib/class-wp-rest-block-renderer-controller.php:88
+msgid "Sorry, you are not allowed to read Gutenberg blocks of this post"
+msgstr "很抱歉，你沒有權限讀取這篇文章的 Gutenberg 區塊。"
+
+#: lib/class-wp-rest-block-renderer-controller.php:61
+msgid "ID of the post context."
+msgstr "文章內容的 ID。"
+
+#. translators: %s is the name of the block
+#: lib/class-wp-rest-block-renderer-controller.php:55
+msgid "Attributes for %s block"
+msgstr "[%s] 區塊的屬性"
+
+#: lib/class-wp-rest-block-renderer-controller.php:43
+msgid "Unique registered name for the block."
+msgstr "區塊的唯一註冊名稱。"
+
+#: languages/gutenberg-translations.php:1727
+msgctxt "term"
+msgid "Remove %s"
+msgstr "移除 [%s]"
+
+#: languages/gutenberg-translations.php:1333
+msgid "Copy the permalink"
+msgstr "複製永久連結"
+
+#: languages/gutenberg-translations.php:1330
+msgid "Permalink copied"
+msgstr "永久連結已複製"
+
+#: languages/gutenberg-translations.php:677
+msgid "Height in pixels"
+msgstr "高度 (以像素 px 為單位)"
+
+#: languages/gutenberg-translations.php:674
+msgid "Spacer Settings"
+msgstr "空白間隔設定"
+
+#: languages/gutenberg-translations.php:671
+msgid "Add an element with empty space and custom height."
+msgstr "在內容中新增可設定高度的空白間格元素。"
+
+#: languages/gutenberg-translations.php:668
+msgid "Spacer"
+msgstr "空白間隔"
+
+#: languages/gutenberg-translations.php:597
+msgid "Toggle to show a large initial letter."
+msgstr "切換以設定是否顯示首字大寫。"
+
+#: languages/gutenberg-translations.php:594
+msgid "Showing large initial letter."
+msgstr "目前設定為顯示首字大寫。"
+
+#: languages/gutenberg-translations.php:81
+msgid "Name:"
+msgstr "區塊名稱:"
+
+#. translators: %s: The name of the color e.g: "vivid red" or color hex code if
+#. name is not available e.g: "#f00".
+#: languages/gutenberg-translations.php:999
+msgid "(current color: %s)"
+msgstr "(目前色彩: %s)"
+
+#. translators: 1: term name, 2: term position in a set of terms, 3: total term
+#. set count.
+#: languages/gutenberg-translations.php:989
+msgid "%1$s (%2$s of %3$s)"
+msgstr "%1$s (第 %2$s 個，總計 %3$s 個 )"
+
+#: languages/gutenberg-translations.php:985
+msgid "Remove item"
+msgstr "移除項目"
+
+#. translators: %s: color hex code e.g: "#f00".
+#: languages/gutenberg-translations.php:948
+msgid "Color code: %s"
+msgstr "色彩代碼: %s"
+
+#: lib/class-wp-rest-block-renderer-controller.php:127
+msgid "Invalid block."
+msgstr "無效的區塊。"
+
+#: lib/rest-api.php:147
+msgid "Whether to show the taxonomy in the quick/bulk edit panel."
+msgstr "是否在快速/批次編輯面板中顯示分類法。"
+
+#: lib/rest-api.php:143
+msgid "Whether to make the taxonomy available for selection in navigation menus."
+msgstr "是否在導覽選單中提供分類法。"
+
+#: lib/rest-api.php:139
+msgid "Whether to allow automatic creation of taxonomy columns on associated post-types table."
+msgstr "是否可在相關的文章類型表格中自動建立分類法欄位。"
+
+#: lib/rest-api.php:135
+msgid "Whether to generate a default UI for managing this taxonomy."
+msgstr "是否為管理這項分類法產生預設使用者介面。"
+
+#: lib/rest-api.php:131
+msgid "Whether the taxonomy is publicly queryable."
+msgstr "分類法是否開放查詢。"
+
+#: lib/rest-api.php:127
+msgid "Whether a taxonomy is intended for use publicly either via the admin interface or by front-end users."
+msgstr "是否想要在管理界面或讓前端使用者公開使用分類法。"
+
+#: lib/rest-api.php:121
+msgid "The visibility settings for the taxonomy."
+msgstr "分類法的可見度設定。"
+
+#: languages/gutenberg-translations.php:1520
+msgid "Skip to the selected block"
+msgstr "前往所選區塊"
+
+#: languages/gutenberg-translations.php:1405
+msgid "Publish…"
+msgstr "發佈…"
+
+#: languages/gutenberg-translations.php:1402
+msgid "Schedule…"
+msgstr "排程…"
+
+#: languages/gutenberg-translations.php:1327
+msgid "Change Permalinks"
+msgstr "變更永久連結"
+
+#: languages/gutenberg-translations.php:1321
+msgid "OK"
+msgstr "確定"
+
+#: languages/gutenberg-translations.php:1318
+msgid "Edit post permalink"
+msgstr "編輯文章永久連結"
+
+#: languages/gutenberg-translations.php:879
+msgid "Show Block Settings"
+msgstr "顯示區塊設定"
+
+#: languages/gutenberg-translations.php:876
+msgid "Hide Block Settings"
+msgstr "隱藏區塊設定"
+
+#: languages/gutenberg-translations.php:870
+msgid "Block settings closed"
+msgstr "區塊設定已關閉"
+
+#: languages/gutenberg-translations.php:828
+msgid "Close plugin"
+msgstr "關閉外掛"
+
+#: languages/gutenberg-translations.php:813
+msgid "Editor settings"
+msgstr "編輯器設定"
+
+#: languages/gutenberg-translations.php:464
+msgid "Link Settings"
+msgstr "連結設定"
+
+#: languages/gutenberg-translations.php:1505
+msgid "Open in new window"
+msgstr "在新視窗中開啟"
+
+#: languages/gutenberg-translations.php:1502
+msgid "Unlink"
+msgstr "取消連結"
+
+#: languages/gutenberg-translations.php:573
+msgid "Page break"
+msgstr "分頁符號"
+
+#: languages/gutenberg-translations.php:570
+msgid "pagination"
+msgstr "分頁"
+
+#: languages/gutenberg-translations.php:567
+msgid "next page"
+msgstr "下一頁"
+
+#: languages/gutenberg-translations.php:564
+msgid "This block allows you to set break points on your post. Visitors of your blog are then presented with content split into multiple pages."
+msgstr "這個區塊能讓作者在文章中設定分頁符號，網站訪客閱讀這類內容時會呈現為多頁內容。"
+
+#: languages/gutenberg-translations.php:455
+msgid "Image Size"
+msgstr "圖片尺寸"
+
+#: languages/gutenberg-translations.php:452
+msgid "Height"
+msgstr "高度"
+
+#: languages/gutenberg-translations.php:449
+msgid "Width"
+msgstr "寬度"
+
+#: languages/gutenberg-translations.php:446
+msgid "Image Dimensions"
+msgstr "圖片尺寸"
+
+#: languages/gutenberg-translations.php:352
+msgid "Thumbnails are not cropped."
+msgstr "縮圖不進行裁切。"
+
+#: languages/gutenberg-translations.php:349
+msgid "Thumbnails are cropped to align."
+msgstr "縮圖會進行裁切以便對齊。"
+
+#: languages/gutenberg-translations.php:1248
+msgid "Media Library"
+msgstr "媒體庫"
+
+#: languages/gutenberg-translations.php:1060
+msgid "Advanced"
+msgstr "進階設定"
+
+#: languages/gutenberg-translations.php:973
+msgid "Add item."
+msgstr "新增項目。"
+
+#: languages/gutenberg-translations.php:1553
+msgid "Reset the template"
+msgstr "重設範本"
+
+#: languages/gutenberg-translations.php:1550
+msgid "Keep it as is"
+msgstr "保留原樣"
+
+#: languages/gutenberg-translations.php:1547
+msgid "The content of your post doesn’t match the template assigned to your post type."
+msgstr "文章內容與指派給這個內容類型的範本不相符。"
+
+#: languages/gutenberg-translations.php:1544
+msgid "Resetting the template may result in loss of content, do you want to continue?"
+msgstr "重設範本有可能會導致內容遺失，要繼續進行操作嗎？"
+
+#: languages/gutenberg-translations.php:1526
+msgid "Document Statistics"
+msgstr "內容統計資料"
+
+#: languages/gutenberg-translations.php:1378
+msgid "The post address will be:"
+msgstr "這篇內容上線後的網址如下:"
+
+#: languages/gutenberg-translations.php:1372
+msgid "is now scheduled. It will go live on"
+msgstr "的內容已排程發佈，上線時間為"
+
+#: languages/gutenberg-translations.php:1360
+msgid "Scheduled"
+msgstr "已排程"
+
+#: languages/gutenberg-translations.php:1348
+msgid "Scheduling…"
+msgstr "正在排程…"
+
+#: languages/gutenberg-translations.php:906
+msgid "Code editor selected"
+msgstr "HTML 程式碼編輯器已選取"
+
+#: languages/gutenberg-translations.php:903
+msgid "Visual editor selected"
+msgstr "視覺化編輯器已選取"
+
+#: languages/gutenberg-translations.php:795
+msgid "Plugins"
+msgstr "外掛"
+
+#: languages/gutenberg-translations.php:970
+msgid "Custom Size"
+msgstr "自訂大小"
+
+#: languages/gutenberg-translations.php:376
+msgid "Upload an image"
+msgstr "上傳圖片"
+
+#: languages/gutenberg-translations.php:918 lib/client-assets.php:1060
+msgid "Layout Elements"
+msgstr "版面配置元素"
+
+#: languages/gutenberg-translations.php:1724
+msgctxt "term"
+msgid "%s removed"
+msgstr "[%s] 已移除。"
+
+#: languages/gutenberg-translations.php:1721
+msgctxt "term"
+msgid "%s added"
+msgstr "[%s] 已新增 "
+
+#: languages/gutenberg-translations.php:1717
+msgctxt "imperative verb"
+msgid "Preview"
+msgstr "預覽"
+
+#: languages/gutenberg-translations.php:1688
+msgid "New post"
+msgstr "新增文章"
+
+#: languages/gutenberg-translations.php:1682
+msgid "Block deleted."
+msgstr "區塊已刪除。"
+
+#: languages/gutenberg-translations.php:1679
+msgid "Block updated."
+msgstr "區塊已更新。"
+
+#: languages/gutenberg-translations.php:1676
+msgid "Block created."
+msgstr "區塊已建立。"
+
+#: languages/gutenberg-translations.php:1673
+msgid "Trashing failed"
+msgstr "移至回收桶發生錯誤"
+
+#: languages/gutenberg-translations.php:1670
+msgid "Updating failed"
+msgstr "更新時發生錯誤"
+
+#: languages/gutenberg-translations.php:1667
+msgid "Scheduling failed"
+msgstr "排程時發生錯誤"
+
+#: languages/gutenberg-translations.php:1664
+msgid "Publishing failed"
+msgstr "發佈時發生錯誤"
+
+#: languages/gutenberg-translations.php:1661
+msgid "View post"
+msgstr "檢視文章"
+
+#: languages/gutenberg-translations.php:1658
+msgid "Post updated!"
+msgstr "文章已更新！"
+
+#: languages/gutenberg-translations.php:1655
+msgid "Post scheduled!"
+msgstr "文章已排程！"
+
+#: languages/gutenberg-translations.php:1652
+msgid "Post published privately!"
+msgstr "已發佈為私密文章！"
+
+#: languages/gutenberg-translations.php:1649
+msgid "Post published!"
+msgstr "文章已發佈！"
+
+#: languages/gutenberg-translations.php:1646
+msgid "Post reverted to draft."
+msgstr "文章已還原為草稿。"
+
+#: languages/gutenberg-translations.php:1556
+msgid "You have unsaved changes. If you proceed, they will be lost."
+msgstr "尚未儲存變更。如果繼續進行，將會失去所有變更。"
+
+#: languages/gutenberg-translations.php:1541
+msgid "Document Outline"
+msgstr "內容大綱"
+
+#: languages/gutenberg-translations.php:1535
+msgid "Paragraphs"
+msgstr "段落"
+
+#: languages/gutenberg-translations.php:1532
+msgid "Headings"
+msgstr "標題"
+
+#: languages/gutenberg-translations.php:1529
+msgid "Words"
+msgstr "字數"
+
+#: languages/gutenberg-translations.php:1523
+msgid "Content Structure"
+msgstr "內容結構"
+
+#: languages/gutenberg-translations.php:1490
+msgid "Public"
+msgstr "公開"
+
+#: languages/gutenberg-translations.php:1487
+msgid "Protected with a password you choose. Only those with the password can view this post."
+msgstr "透過作者輸入的密碼保護文章內容。僅有知悉密碼的人才能檢視這篇文章。"
+
+#: languages/gutenberg-translations.php:1484
+msgid "Password Protected"
+msgstr "密碼保護"
+
+#: languages/gutenberg-translations.php:1481
+msgid "Only visible to site admins and editors."
+msgstr "僅網站管理員及編輯可檢視。"
+
+#: languages/gutenberg-translations.php:1478
+msgid "Private"
+msgstr "私密"
+
+#: languages/gutenberg-translations.php:1493
+msgid "Visible to everyone."
+msgstr "所有網站訪客均可檢視。"
+
+#: languages/gutenberg-translations.php:1466
+msgid "Post Visibility"
+msgstr "文章可見度"
+
+#: languages/gutenberg-translations.php:1475
+msgid "Would you like to privately publish this post now?"
+msgstr "確定要將這篇文章發佈為私密文章？"
+
+#: languages/gutenberg-translations.php:1472
+msgid "Use a secure password"
+msgstr "使用安全的密碼"
+
+#: languages/gutenberg-translations.php:1469
+msgid "Create password"
+msgstr "建立密碼"
+
+#: languages/gutenberg-translations.php:1463
+msgid "Move to trash"
+msgstr "移至回收桶"
+
+#: languages/gutenberg-translations.php:1457
+msgid "Parent Term"
+msgstr "上層類別"
+
+#: languages/gutenberg-translations.php:1454
+msgid "Parent Category"
+msgstr "上層分類"
+
+#: languages/gutenberg-translations.php:1451
+msgid "Add new term"
+msgstr "新增類別"
+
+#: languages/gutenberg-translations.php:1448
+msgid "Add new category"
+msgstr "新增分類"
+
+#: languages/gutenberg-translations.php:1445
+msgid "Term"
+msgstr "字詞"
+
+#: languages/gutenberg-translations.php:1441
+msgid "Tag"
+msgstr "標籤"
+
+#: languages/gutenberg-translations.php:1438
+msgid "Add New Term"
+msgstr "新增字詞"
+
+#: languages/gutenberg-translations.php:1435
+msgid "Add New Tag"
+msgstr "新增標籤"
+
+#: languages/gutenberg-translations.php:1432
+msgid "Switch to Draft"
+msgstr "重設為草稿"
+
+#: languages/gutenberg-translations.php:1429
+msgid "Are you sure you want to unpublish this post?"
+msgstr "確定要取消這篇文章的發佈狀態？"
+
+#: languages/gutenberg-translations.php:1426
+msgid "Stick to the Front Page"
+msgstr "將這篇內容置頂"
+
+#: languages/gutenberg-translations.php:1423
+msgid "Immediately"
+msgstr "立即排程"
+
+#: languages/gutenberg-translations.php:1414
+msgid "Save Draft"
+msgstr "儲存草稿"
+
+#: languages/gutenberg-translations.php:1420
+msgid "Saving"
+msgstr "儲存中"
+
+#: languages/gutenberg-translations.php:1399
+msgid "Publish:"
+msgstr "發佈時間:"
+
+#: languages/gutenberg-translations.php:1396
+msgid "Visibility:"
+msgstr "可見度:"
+
+#: languages/gutenberg-translations.php:1390
+msgid "Here, you can do a last-minute check up of your settings below, before you publish."
+msgstr "在發佈內容前，可以在這裡對下列設定進行最後一次檢查。"
+
+#: languages/gutenberg-translations.php:1384
+msgid "Are you ready to publish?"
+msgstr "確定要發佈這篇內容？"
+
+#: languages/gutenberg-translations.php:1369
+msgid "Copy Link"
+msgstr "複製連結"
+
+#: languages/gutenberg-translations.php:1381
+msgid "What’s next?"
+msgstr "可進行的下一步操作"
+
+#: languages/gutenberg-translations.php:1375
+msgid "is now live."
+msgstr "的內容已上線。"
+
+#: languages/gutenberg-translations.php:1366
+msgid "Close Publish Panel"
+msgstr "關閉 [發佈] 面板"
+
+#: languages/gutenberg-translations.php:1363
+msgid "Published"
+msgstr "已發佈"
+
+#: languages/gutenberg-translations.php:1357
+msgid "Schedule"
+msgstr "排程"
+
+#: languages/gutenberg-translations.php:1354
+msgid "Update"
+msgstr "更新"
+
+#: languages/gutenberg-translations.php:1351
+msgid "Submit for Review"
+msgstr "送交審閱"
+
+#: languages/gutenberg-translations.php:1345
+msgid "Updating…"
+msgstr "正在更新…"
+
+#: languages/gutenberg-translations.php:1342
+msgid "Publishing…"
+msgstr "正在發佈…"
+
+#: languages/gutenberg-translations.php:1336
+msgid "Allow Pingbacks & Trackbacks"
+msgstr "開放自動引用通知及引用通知"
+
+#: languages/gutenberg-translations.php:1324
+msgid "Permalink:"
+msgstr "永久連結:"
+
+#: languages/gutenberg-translations.php:1315
+msgid "Pending Review"
+msgstr "送交審閱"
+
+#: languages/gutenberg-translations.php:1312
+msgid "%d Revision"
+msgid_plural "%d Revisions"
+msgstr[0] "%d 份內容修訂"
+
+#: languages/gutenberg-translations.php:1309
+msgid "Suggestion:"
+msgstr "建議樣式:"
+
+#: languages/gutenberg-translations.php:1306
+msgid "Post Format"
+msgstr "文章格式"
+
+#: languages/gutenberg-translations.php:1303
+msgid "Chat"
+msgstr "聊天記錄"
+
+#: languages/gutenberg-translations.php:1300
+msgid "Status"
+msgstr "近況更新"
+
+#: languages/gutenberg-translations.php:1297
+msgid "Standard"
+msgstr "標準"
+
+#: languages/gutenberg-translations.php:1290
+msgid "Aside"
+msgstr "記事"
+
+#: languages/gutenberg-translations.php:1281
+msgid "Featured image"
+msgstr "精選圖片"
+
+#: languages/gutenberg-translations.php:1287
+msgid "Set featured image"
+msgstr "設定精選圖片"
+
+#: languages/gutenberg-translations.php:1275
+msgid "Learn more about manual excerpts"
+msgstr "進一步瞭解手動輸入摘要"
+
+#: languages/gutenberg-translations.php:1272
+msgid "Write an excerpt (optional)"
+msgstr "撰寫摘要 (選用)"
+
+#: languages/gutenberg-translations.php:1269
+msgid "Allow Comments"
+msgstr "開放留言"
+
+#: lib/client-assets.php:1228
+msgid "Default template"
+msgstr "預設模版"
+
+#: languages/gutenberg-translations.php:1260
+msgid "Template:"
+msgstr "模版:"
+
+#: languages/gutenberg-translations.php:1257
+msgid "no parent"
+msgstr "無上層項目"
+
+#: languages/gutenberg-translations.php:1254
+msgid "no title"
+msgstr "無標題"
+
+#: languages/gutenberg-translations.php:1251
+msgid "Order"
+msgstr "順序"
+
+#: languages/gutenberg-translations.php:1233
+msgid "No blocks found."
+msgstr "找不到區塊。"
+
+#: languages/gutenberg-translations.php:1411
+msgid "Saved"
+msgstr "已儲存"
+
+#: languages/gutenberg-translations.php:924 lib/client-assets.php:1068
+msgid "Embeds"
+msgstr "嵌入內容"
+
+#: languages/gutenberg-translations.php:1538
+msgid "Blocks"
+msgstr "區塊"
+
+#: languages/gutenberg-translations.php:1221
+msgid "Search for a block"
+msgstr "搜尋區塊"
+
+#: languages/gutenberg-translations.php:1179
+msgid "Add block"
+msgstr "新增區塊"
+
+#: languages/gutenberg-translations.php:1218
+msgid "Add %s"
+msgstr "新增%s"
+
+#: languages/gutenberg-translations.php:1212
+msgid "Copy Error"
+msgstr "複製時發生錯誤"
+
+#: languages/gutenberg-translations.php:1209
+msgid "Copy Post Text"
+msgstr "複製文章內容"
+
+#: languages/gutenberg-translations.php:1206
+msgid "Attempt Recovery"
+msgstr "嘗試復原"
+
+#: languages/gutenberg-translations.php:1215
+msgid "The editor has encountered an unexpected error."
+msgstr "編輯器發生未知的錯誤。"
+
+#: languages/gutenberg-translations.php:1203
+msgid "Undo"
+msgstr "復原"
+
+#: languages/gutenberg-translations.php:1200
+msgid "Redo"
+msgstr "重做"
+
+#: languages/gutenberg-translations.php:1197
+msgid "(Click to focus this heading)"
+msgstr "(點擊以選取這個標題)"
+
+#: languages/gutenberg-translations.php:1194
+msgid "(Multiple H1 headings are not recommended)"
+msgstr "(不建議在同一篇內容中有多個 H1 標題)"
+
+#: languages/gutenberg-translations.php:1191
+msgid "(Your theme may already use a H1 for the post title)"
+msgstr "(目前使用的佈景主題已使用 H1 作為文章標題)"
+
+#: languages/gutenberg-translations.php:1188
+msgid "(Incorrect heading level)"
+msgstr "(不正確的標題階層)"
+
+#: languages/gutenberg-translations.php:1185
+msgid "(Empty heading)"
+msgstr "(無標題)"
+
+#: languages/gutenberg-translations.php:1175 lib/client-assets.php:1244
+msgid "Write your story"
+msgstr "撰寫內容"
+
+#: languages/gutenberg-translations.php:1156
+msgid "Block Styles"
+msgstr "區塊樣式"
+
+#: languages/gutenberg-translations.php:1162
+msgid "Change block type"
+msgid_plural "Change type of %d blocks"
+msgstr[0] "變更 %d 個區塊類型"
+
+#: languages/gutenberg-translations.php:1148
+msgid ""
+"Are you sure you want to delete this Reusable Block?\n"
+"\n"
+"It will be permanently removed from all posts and pages that use it."
+msgstr ""
+"確定要刪除這個可重複使用區塊嗎？\n"
+"\n"
+"這項操作會在所有使用到這個可重複使用區塊的文章或頁面中，將它永久移除。"
+
+#: languages/gutenberg-translations.php:1142
+msgid "Convert to Regular Block"
+msgstr "轉換為一般區塊"
+
+#: languages/gutenberg-translations.php:1136
+msgid "More Options"
+msgstr "更多設定"
+
+#: languages/gutenberg-translations.php:1127
+msgid "Edit visually"
+msgstr "視覺化編輯"
+
+#: languages/gutenberg-translations.php:1121
+msgid "Duplicate"
+msgstr "再製"
+
+#: languages/gutenberg-translations.php:1115
+msgid "Move %(selectedCount)d blocks from position %(position)d up by one place"
+msgstr "將位於%(position)s的 %(selectedCount)d 個區塊上移一次"
+
+#: languages/gutenberg-translations.php:1112
+msgid "Blocks cannot be moved down as they are already at the bottom"
+msgstr "由於已在內容尾端，區塊無法繼續下移"
+
+#: languages/gutenberg-translations.php:1109
+msgid "Blocks cannot be moved up as they are already at the top"
+msgstr "由於已在內容頂端，區塊無法繼續上移"
+
+#. translators: %s: Type of block (i.e. Text, Image etc)
+#: languages/gutenberg-translations.php:1106
+msgid "Block %s is at the beginning of the content and can’t be moved up"
+msgstr "[%s] 區塊位於內容頂端，無法上移"
+
+#: languages/gutenberg-translations.php:1102
+msgid "Move %(type)s block from position %(position)d up to position %(newPosition)d"
+msgstr "將位於%(position)d的 [%(type)s] 區塊上移至%(newPosition)d"
+
+#. translators: %s: Type of block (i.e. Text, Image etc)
+#: languages/gutenberg-translations.php:1099
+msgid "Block %s is at the end of the content and can’t be moved down"
+msgstr "[%s] 區塊位於內容尾端，無法下移"
+
+#: languages/gutenberg-translations.php:1095
+msgid "Move %(type)s block from position %(position)d down to position %(newPosition)d"
+msgstr "將位於%(position)d的 [%(type)s] 區塊下移至%(newPosition)d"
+
+#. translators: %s: Type of block (i.e. Text, Image etc)
+#: languages/gutenberg-translations.php:1092
+msgid "Block %s is the only block, and cannot be moved"
+msgstr "[%s] 區塊是目前內容中唯一的區塊，無法進行移動"
+
+#: languages/gutenberg-translations.php:1118
+msgid "Move %(selectedCount)d blocks from position %(position)s down by one place"
+msgstr "將位於%(position)s的 %(selectedCount)d 個區塊下移一次"
+
+#: languages/gutenberg-translations.php:1085
+msgid "Move down"
+msgstr "下移"
+
+#: languages/gutenberg-translations.php:1088
+msgid "Move up"
+msgstr "上移"
+
+#: languages/gutenberg-translations.php:1124
+msgid "Edit as HTML"
+msgstr "編輯 HTML 程式碼"
+
+#: languages/gutenberg-translations.php:1070
+msgid "Convert to Blocks"
+msgstr "轉換為區塊"
+
+#: languages/gutenberg-translations.php:1082
+msgid "Insert block"
+msgstr "插入區塊"
+
+#: languages/gutenberg-translations.php:1079
+msgid "Block: %s"
+msgstr "區塊: %s"
+
+#: languages/gutenberg-translations.php:1066
+msgid "This block has encountered an error and cannot be previewed."
+msgstr "這個區塊發生錯誤，導致無法進行預覽。"
+
+#: languages/gutenberg-translations.php:1063
+msgid "Block Toolbar"
+msgstr "區塊工具列"
+
+#: languages/gutenberg-translations.php:1057
+msgid "No block selected."
+msgstr "未選取任何區塊。"
+
+#: languages/gutenberg-translations.php:1054
+msgid "Coming Soon"
+msgstr "即將推出"
+
+#: languages/gutenberg-translations.php:897
+msgid "Transform into:"
+msgstr "轉換成其他類型區塊:"
+
+#: languages/gutenberg-translations.php:894
+msgid "Remove"
+msgstr "移除"
+
+#: languages/gutenberg-translations.php:891
+msgid "Find original"
+msgstr "尋找原始內容"
+
+#: languages/gutenberg-translations.php:900
+msgid "This block may not be used more than once."
+msgstr "這個區塊不能使用超過一次。"
+
+#: languages/gutenberg-translations.php:888
+msgid "Copy All Content"
+msgstr "複製所有內容"
+
+#: languages/gutenberg-translations.php:283
+msgid "Copied!"
+msgstr "已完成複製！"
+
+#: languages/gutenberg-translations.php:873
+msgid "Additional settings are now available in the Editor block settings sidebar"
+msgstr "在編輯器區塊設定側邊欄提供了其他設定"
+
+#: languages/gutenberg-translations.php:847
+msgid "Visibility"
+msgstr "可見度"
+
+#: languages/gutenberg-translations.php:844
+msgid "Status & Visibility"
+msgstr "狀態及可見度"
+
+#: languages/gutenberg-translations.php:822
+msgid "Page Attributes"
+msgstr "頁面屬性"
+
+#: languages/gutenberg-translations.php:862
+msgid "Block"
+msgid_plural "%d Blocks"
+msgstr[0] "%d 個區塊"
+
+#: languages/gutenberg-translations.php:859
+msgid "Block settings"
+msgstr "區塊設定"
+
+#: languages/gutenberg-translations.php:856
+msgid "Document"
+msgstr "內容"
+
+#: languages/gutenberg-translations.php:853
+msgid "Document settings"
+msgstr "內容設定"
+
+#: languages/gutenberg-translations.php:819
+msgid "Featured Image"
+msgstr "精選圖片"
+
+#: languages/gutenberg-translations.php:850
+msgid "Close settings"
+msgstr "關閉設定"
+
+#: languages/gutenberg-translations.php:825
+msgid "Editor plugins"
+msgstr "編輯器外掛"
+
+#. translators: accessibility text for the content landmark region.
+#: languages/gutenberg-translations.php:809
+msgid "Editor content"
+msgstr "編輯器內容"
+
+#: languages/gutenberg-translations.php:792
+msgid "Tools"
+msgstr "工具"
+
+#: languages/gutenberg-translations.php:789
+msgid "Editor"
+msgstr "編輯器"
+
+#: languages/gutenberg-translations.php:786
+msgid "Code Editor"
+msgstr "HTML 程式碼編輯器"
+
+#: languages/gutenberg-translations.php:783
+msgid "Visual Editor"
+msgstr "視覺化編輯器"
+
+#. translators: accessibility text for the top bar landmark region.
+#: languages/gutenberg-translations.php:773
+msgid "Editor top bar"
+msgstr "編輯器頂端列"
+
+#: languages/gutenberg-translations.php:769
+msgid "Editor Toolbar"
+msgstr "編輯器工具列"
+
+#: languages/gutenberg-translations.php:766
+msgid "Fix Toolbar to Top"
+msgstr "工具列置頂"
+
+#: languages/gutenberg-translations.php:777
+msgid "Settings"
+msgstr "設定"
+
+#: languages/gutenberg-translations.php:460
+msgid "Reset"
+msgstr "重設"
+
+#: languages/gutenberg-translations.php:995
+msgid "Dismiss this notice"
+msgstr "關閉這項通知"
+
+#: languages/gutenberg-translations.php:982
+msgid "Item removed."
+msgstr "項目已移除。"
+
+#: languages/gutenberg-translations.php:979
+msgid "Item added."
+msgstr "項目已新增。"
+
+#: languages/gutenberg-translations.php:976
+msgid "Separate with commas"
+msgstr "請以半形逗號分隔多個項目"
+
+#. translators: accessibility text
+#: languages/gutenberg-translations.php:964
+msgid "(opens in a new window)"
+msgstr "(在新視窗中開啟)"
+
+#: languages/gutenberg-translations.php:960
+msgid "Drop files to upload"
+msgstr "拖放檔案以進行上傳"
+
+#: languages/gutenberg-translations.php:957
+msgid "PM"
+msgstr "下午"
+
+#: languages/gutenberg-translations.php:954
+msgid "AM"
+msgstr "上午"
+
+#: languages/gutenberg-translations.php:6
+msgid "An unknown error occurred."
+msgstr "發生未知的錯誤。"
+
+#: languages/gutenberg-translations.php:937
+msgid "No results."
+msgstr "找不到結果。"
+
+#: languages/gutenberg-translations.php:932
+msgid "%d result found, use up and down arrow keys to navigate."
+msgid_plural "%d results found, use up and down arrow keys to navigate."
+msgstr[0] "找到 %d 個結果，請使用上下方向鍵進行巡覽。"
+
+#: core-blocks/latest-comments/index.php:31
+#: languages/gutenberg-translations.php:867
+msgid "(no title)"
+msgstr "(無標題)"
+
+#: languages/gutenberg-translations.php:1571
+msgid "Paste URL or type"
+msgstr "貼上或輸入網址"
+
+#: languages/gutenberg-translations.php:308
+msgid "URL"
+msgstr "網址"
+
+#: languages/gutenberg-translations.php:1568
+msgid "Submit"
+msgstr "傳送"
+
+#: languages/gutenberg-translations.php:1565
+msgid "Close"
+msgstr "關閉"
+
+#: languages/gutenberg-translations.php:1562
+msgid "Insert Link"
+msgstr "插入連結"
+
+#: languages/gutenberg-translations.php:1559
+msgid "Edit Link"
+msgstr "編輯連結"
+
+#: languages/gutenberg-translations.php:1294
+msgid "Link"
+msgstr "連結"
+
+#: languages/gutenberg-translations.php:1514
+msgid "Strikethrough"
+msgstr "刪除線"
+
+#: languages/gutenberg-translations.php:1511
+msgid "Italic"
+msgstr "斜體"
+
+#: languages/gutenberg-translations.php:1508
+msgid "Bold"
+msgstr "粗體"
+
+#: languages/gutenberg-translations.php:1499
+msgid "Link added."
+msgstr "連結已新增。"
+
+#: languages/gutenberg-translations.php:1026
+msgid "Number of items"
+msgstr "項目數量"
+
+#: languages/gutenberg-translations.php:1023
+msgid "All"
+msgstr "所有分類"
+
+#: languages/gutenberg-translations.php:1020
+msgid "Category"
+msgstr "分類"
+
+#. translators: label for ordering posts by title in descending order
+#: languages/gutenberg-translations.php:1016
+msgid "Z → A"
+msgstr "標題降冪排序"
+
+#. translators: label for ordering posts by title in ascending order
+#: languages/gutenberg-translations.php:1012
+msgid "A → Z"
+msgstr "標題升冪排序"
+
+#: languages/gutenberg-translations.php:1008
+msgid "Oldest to Newest"
+msgstr "從最舊到最新排序"
+
+#: languages/gutenberg-translations.php:1005
+msgid "Newest to Oldest"
+msgstr "從最新到最舊排序"
+
+#: languages/gutenberg-translations.php:1002
+msgid "Order by"
+msgstr "排序方式"
+
+#: languages/gutenberg-translations.php:882
+msgid "Select"
+msgstr "選取"
+
+#: languages/gutenberg-translations.php:885
+msgid "Select or Upload Media"
+msgstr "選取或上傳媒體檔案"
+
+#: languages/gutenberg-translations.php:745
+msgid "Video"
+msgstr "視訊"
+
+#: languages/gutenberg-translations.php:751
+msgid "Edit video"
+msgstr "編輯視訊"
+
+#: languages/gutenberg-translations.php:740
+msgid "Write…"
+msgstr "撰寫…"
+
+#: languages/gutenberg-translations.php:737
+msgid "poetry"
+msgstr "詩句"
+
+#: languages/gutenberg-translations.php:731
+msgid "Verse"
+msgstr "詩句"
+
+#: languages/gutenberg-translations.php:725
+msgid "Text Columns"
+msgstr "文字欄"
+
+#: languages/gutenberg-translations.php:722
+msgid "New Column"
+msgstr "新增文字欄"
+
+#: languages/gutenberg-translations.php:719
+msgid "Delete Column"
+msgstr "刪除資料行"
+
+#: languages/gutenberg-translations.php:716
+msgid "Add Column After"
+msgstr "在目前位置後方插入資料行"
+
+#: languages/gutenberg-translations.php:713
+msgid "Add Column Before"
+msgstr "在目前位置前方插入資料行"
+
+#: languages/gutenberg-translations.php:710
+msgid "Delete Row"
+msgstr "刪除資料列"
+
+#: languages/gutenberg-translations.php:707
+msgid "Add Row After"
+msgstr "在目前位置下方插入資料列"
+
+#: languages/gutenberg-translations.php:704
+msgid "Add Row Before"
+msgstr "在目前位置上方插入資料列"
+
+#: languages/gutenberg-translations.php:701
+msgid "Edit Table"
+msgstr "編輯表格"
+
+#: languages/gutenberg-translations.php:695
+msgid "Table"
+msgstr "表格"
+
+#: languages/gutenberg-translations.php:686
+msgid "Write subheading…"
+msgstr "撰寫子標題…"
+
+#: languages/gutenberg-translations.php:665
+msgid "Write shortcode here…"
+msgstr "在這裡輸入短代碼…"
+
+#: languages/gutenberg-translations.php:662
+msgid "Shortcode"
+msgstr "短代碼"
+
+#: languages/gutenberg-translations.php:647
+msgid "divider"
+msgstr "分隔線"
+
+#: languages/gutenberg-translations.php:644
+msgid "horizontal-line"
+msgstr "水平線"
+
+#: languages/gutenberg-translations.php:638
+msgid "Separator"
+msgstr "分隔符號"
+
+#: languages/gutenberg-translations.php:626
+msgid "Quote"
+msgstr "引文"
+
+#. translators: the individual or entity quoted
+#: languages/gutenberg-translations.php:622
+msgid "Write citation…"
+msgstr "撰寫引文…"
+
+#. translators: the text of the quotation
+#: languages/gutenberg-translations.php:617
+msgid "Write quote…"
+msgstr "撰寫重要引述…"
+
+#: languages/gutenberg-translations.php:609
+msgid "Pullquote"
+msgstr "重要引述"
+
+#: languages/gutenberg-translations.php:606
+msgid "Write preformatted text…"
+msgstr "撰寫未格式化文字…"
+
+#: languages/gutenberg-translations.php:600
+msgid "Preformatted"
+msgstr "未格式化文字"
+
+#: languages/gutenberg-translations.php:591
+msgid "text"
+msgstr "文字"
+
+#: languages/gutenberg-translations.php:585
+msgid "Paragraph"
+msgstr "段落"
+
+#: languages/gutenberg-translations.php:582
+msgid "Add text or type / to add content"
+msgstr "加入文字或直接輸入以新增內容"
+
+#: languages/gutenberg-translations.php:967
+msgid "Font Size"
+msgstr "字型大小"
+
+#: languages/gutenberg-translations.php:579
+msgid "Drop Cap"
+msgstr "首字放大"
+
+#: languages/gutenberg-translations.php:576
+msgid "Text Settings"
+msgstr "文字設定"
+
+#: languages/gutenberg-translations.php:558
+msgid "Hide the teaser before the \"More\" tag"
+msgstr "隱藏在 [閱讀全文] 標籤前的摘要"
+
+#: languages/gutenberg-translations.php:555
+msgid "Read more"
+msgstr "閱讀全文"
+
+#: languages/gutenberg-translations.php:537
+msgid "Write list…"
+msgstr "撰寫清單…"
+
+#: languages/gutenberg-translations.php:552
+msgid "numbered list"
+msgstr "標號清單"
+
+#: languages/gutenberg-translations.php:549
+msgid "ordered list"
+msgstr "排序清單"
+
+#: languages/gutenberg-translations.php:546
+msgid "bullet list"
+msgstr "項目符號清單"
+
+#: languages/gutenberg-translations.php:534
+msgid "Indent list item"
+msgstr "增加縮排清單項目"
+
+#: languages/gutenberg-translations.php:531
+msgid "Outdent list item"
+msgstr "減少縮排清單項目"
+
+#: languages/gutenberg-translations.php:528
+msgid "Convert to ordered list"
+msgstr "轉換為排序清單"
+
+#: languages/gutenberg-translations.php:525
+msgid "Convert to unordered list"
+msgstr "轉換為不排序清單"
+
+#: languages/gutenberg-translations.php:540
+msgid "List"
+msgstr "清單"
+
+#: languages/gutenberg-translations.php:522
+msgid "recent posts"
+msgstr "近期文章"
+
+#: languages/gutenberg-translations.php:494
+msgid "Show a list of your site’s most recent comments."
+msgstr "以清單方式顯示這個網站的最新留言。"
+
+#: languages/gutenberg-translations.php:516
+msgid "No posts found."
+msgstr "目前尚無文章。"
+
+#: languages/gutenberg-translations.php:513
+msgid "Latest Posts"
+msgstr "最新文章"
+
+#: languages/gutenberg-translations.php:509
+msgid "Display post date"
+msgstr "顯示文章日期"
+
+#: languages/gutenberg-translations.php:506
+msgid "Latest Posts Settings"
+msgstr "[最新文章] 設定"
+
+#: languages/gutenberg-translations.php:503
+msgid "Grid View"
+msgstr "格狀檢視"
+
+#: languages/gutenberg-translations.php:500
+msgid "List View"
+msgstr "清單檢視"
+
+#: languages/gutenberg-translations.php:470
+msgid "photo"
+msgstr "相片"
+
+#: languages/gutenberg-translations.php:443
+msgid "Describe the purpose of the image. Leave empty if the image is not a key part of the content."
+msgstr "描述圖片的內容。如果圖片不是內容的關鍵部分，可以留空。"
+
+#: languages/gutenberg-translations.php:440
+msgid "Textual Alternative"
+msgstr "替代文字說明"
+
+#: languages/gutenberg-translations.php:437
+msgid "Image Settings"
+msgstr "圖片設定"
+
+#: languages/gutenberg-translations.php:434
+msgid "Image"
+msgstr "圖片"
+
+#: languages/gutenberg-translations.php:426
+msgid "Preview"
+msgstr "預覽"
+
+#: languages/gutenberg-translations.php:422
+msgid "embed"
+msgstr "嵌入"
+
+#: languages/gutenberg-translations.php:416
+msgid "Custom HTML"
+msgstr "自訂 HTML"
+
+#: languages/gutenberg-translations.php:413
+msgid "subtitle"
+msgstr "子標題"
+
+#: languages/gutenberg-translations.php:410
+msgid "title"
+msgstr "標題"
+
+#: languages/gutenberg-translations.php:404
+msgid "Heading"
+msgstr "標題"
+
+#: languages/gutenberg-translations.php:401
+msgid "Write heading…"
+msgstr "撰寫標題…"
+
+#. translators: %s: heading level e.g: "1", "2", "3"
+#: languages/gutenberg-translations.php:389
+msgid "Heading %d"
+msgstr "標題 %d"
+
+#: languages/gutenberg-translations.php:395
+msgid "Level"
+msgstr "標題階層"
+
+#: languages/gutenberg-translations.php:392
+msgid "Heading Settings"
+msgstr "標題設定"
+
+#: languages/gutenberg-translations.php:385
+msgid "photos"
+msgstr "相片"
+
+#: languages/gutenberg-translations.php:364
+msgid "images"
+msgstr "圖片"
+
+#: languages/gutenberg-translations.php:379
+msgid "Remove Image"
+msgstr "移除圖片"
+
+#: languages/gutenberg-translations.php:49
+msgid "None"
+msgstr "不進行連結"
+
+#: languages/gutenberg-translations.php:313
+msgid "Media File"
+msgstr "媒體檔案"
+
+#: languages/gutenberg-translations.php:318
+msgid "Attachment Page"
+msgstr "附件頁面"
+
+#: languages/gutenberg-translations.php:373
+msgid "Link to"
+msgstr "連結至"
+
+#: languages/gutenberg-translations.php:370
+msgid "Crop Images"
+msgstr "裁切圖片"
+
+#: languages/gutenberg-translations.php:367
+msgid "Gallery Settings"
+msgstr "藝廊設定"
+
+#: languages/gutenberg-translations.php:360
+msgid "Gallery"
+msgstr "藝廊"
+
+#: languages/gutenberg-translations.php:355
+msgid "Edit Gallery"
+msgstr "編輯藝廊"
+
+#: languages/gutenberg-translations.php:339
+msgid "More"
+msgstr "更多"
+
+#: languages/gutenberg-translations.php:343
+msgid "Classic"
+msgstr "傳統編輯器"
+
+#: languages/gutenberg-translations.php:265
+msgid "video"
+msgstr "視訊"
+
+#: languages/gutenberg-translations.php:258
+msgid "audio"
+msgstr "音訊"
+
+#: languages/gutenberg-translations.php:255
+msgid "music"
+msgstr "音樂"
+
+#: languages/gutenberg-translations.php:252
+msgid "image"
+msgstr "圖片"
+
+#: languages/gutenberg-translations.php:240
+msgid "The Embed block allows you to easily add videos, images, tweets, audio, and other content to your post or page."
+msgstr "[嵌入內容] 區塊可輕鬆在文章或頁面加入視訊、圖片、推文、音訊以及其他內容。"
+
+#: languages/gutenberg-translations.php:249
+msgid "blog"
+msgstr "部落格"
+
+#: languages/gutenberg-translations.php:246
+msgid "post"
+msgstr "文章"
+
+#: languages/gutenberg-translations.php:243
+msgid "tweet"
+msgstr "推文"
+
+#: languages/gutenberg-translations.php:234
+msgid "Previews for this are unavailable in the editor, sorry!"
+msgstr "很抱歉，無法在編輯器中預覽這個項目。"
+
+#: languages/gutenberg-translations.php:231
+msgid "Embed URL"
+msgstr "嵌入內容的網址"
+
+#. translators: %s: host providing embed content e.g: www.youtube.com
+#: languages/gutenberg-translations.php:228
+msgid "Embedded content from %s"
+msgstr "從 %s 嵌入的內容"
+
+#: languages/gutenberg-translations.php:224
+msgid "Sorry, we could not embed that content."
+msgstr "很抱歉，系統無法嵌入這類內容。"
+
+#: languages/gutenberg-translations.php:221
+msgid "Enter URL to embed here…"
+msgstr "在這裡輸入網址以嵌入內容…"
+
+#. translators: %s: type of embed e.g: "YouTube", "Twitter", etc. "Embed" is
+#. used when no specific type exists
+#: languages/gutenberg-translations.php:218
+msgid "%s URL"
+msgstr "%s 網址"
+
+#: languages/gutenberg-translations.php:214
+msgid "Embedding…"
+msgstr "正在嵌入內容…"
+
+#: languages/gutenberg-translations.php:205
+msgid "Write title…"
+msgstr "撰寫標題…"
+
+#: languages/gutenberg-translations.php:198
+msgid "Cover Image"
+msgstr "封面圖片"
+
+#: languages/gutenberg-translations.php:398
+msgid "Text Alignment"
+msgstr "文字對齊方式"
+
+#: languages/gutenberg-translations.php:192
+msgid "Fixed Background"
+msgstr "背景固定位置"
+
+#: languages/gutenberg-translations.php:189
+msgid "Cover Image Settings"
+msgstr "封面圖片設定"
+
+#: languages/gutenberg-translations.php:186
+msgid "Edit image"
+msgstr "編輯圖片"
+
+#: languages/gutenberg-translations.php:172
+msgid "Columns"
+msgstr "內容欄"
+
+#. translators: Block title modifier
+#: languages/gutenberg-translations.php:176
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: languages/gutenberg-translations.php:157
+msgid "Code"
+msgstr "程式碼"
+
+#: languages/gutenberg-translations.php:153
+msgid "Write code…"
+msgstr "撰寫程式碼…"
+
+#: languages/gutenberg-translations.php:142
+msgid "Categories"
+msgstr "分類"
+
+#: languages/gutenberg-translations.php:138
+msgid "Show hierarchy"
+msgstr "顯示分類階層"
+
+#: languages/gutenberg-translations.php:135
+msgid "Show post counts"
+msgstr "顯示文章數目"
+
+#: languages/gutenberg-translations.php:132
+msgid "Display as dropdown"
+msgstr "顯示為下拉式選單"
+
+#: languages/gutenberg-translations.php:129
+msgid "Categories Settings"
+msgstr "分類設定"
+
+#: languages/gutenberg-translations.php:111
+msgid "Add text…"
+msgstr "加入文字…"
+
+#: languages/gutenberg-translations.php:114
+msgid "Button"
+msgstr "按鈕"
+
+#: languages/gutenberg-translations.php:107
+msgid "Apply"
+msgstr "套用"
+
+#: languages/gutenberg-translations.php:103
+msgid "Text Color"
+msgstr "文字色彩"
+
+#: languages/gutenberg-translations.php:99
+msgid "Background Color"
+msgstr "背景色彩"
+
+#: languages/gutenberg-translations.php:84
+msgid "Block has been deleted or is unavailable."
+msgstr "區塊已刪除或不可使用。"
+
+#: languages/gutenberg-translations.php:927 lib/client-assets.php:1072
+msgid "Reusable Blocks"
+msgstr "可重複使用區塊"
+
+#: languages/gutenberg-translations.php:73
+msgid "Cancel"
+msgstr "取消"
+
+#: languages/gutenberg-translations.php:78
+msgid "Edit"
+msgstr "編輯"
+
+#: languages/gutenberg-translations.php:24
+msgid "Edit audio"
+msgstr "編輯音訊"
+
+#: languages/gutenberg-translations.php:56
+msgid "Write caption…"
+msgstr "撰寫說明…"
+
+#: languages/gutenberg-translations.php:1242
+msgid "Use URL"
+msgstr "插入網址"
+
+#: languages/gutenberg-translations.php:61
+msgid "Audio"
+msgstr "音訊"
+
+#: languages/gutenberg-translations.php:1245
+msgid "Upload"
+msgstr "上傳"
+
+#: languages/gutenberg-translations.php:1580
+msgid "Additional CSS Class"
+msgstr "附加的 CSS 類別"
+
+#: languages/gutenberg-translations.php:1577
+msgid "Anchors lets you link directly to a section on a page."
+msgstr "作者可透過錨點直接連結至頁面上的某個區段。"
+
+#: languages/gutenberg-translations.php:1574
+msgid "HTML Anchor"
+msgstr "HTML 錨點"
+
+#: languages/gutenberg-translations.php:1171
+msgid "This color combination may be hard for people to read. Try using a brighter background color and/or a darker text color."
+msgstr "這種色彩組合會使讀者難以閱讀，請改用較亮的背景色彩搭配較暗的文字色彩。"
+
+#: languages/gutenberg-translations.php:1168
+msgid "This color combination may be hard for people to read. Try using a darker background color and/or a brighter text color."
+msgstr "這種色彩組合會使讀者難以閱讀，請改用較暗的背景色彩搭配較亮的文字色彩。"
+
+#: languages/gutenberg-translations.php:951
+msgid "Clear"
+msgstr "清除"
+
+#: languages/gutenberg-translations.php:940
+msgid "Custom color picker"
+msgstr "自訂色彩選擇器"
+
+#. translators: %s: The name of the color e.g: "vivid red".
+#: languages/gutenberg-translations.php:944
+msgid "Color: %s"
+msgstr "色彩: %s"
+
+#: languages/gutenberg-translations.php:1051
+msgid "Full width"
+msgstr "全幅寬度"
+
+#: languages/gutenberg-translations.php:1048
+msgid "Wide width"
+msgstr "寬幅寬度"
+
+#: languages/gutenberg-translations.php:237
+msgid "Embed"
+msgstr "嵌入內容"
+
+#: languages/gutenberg-translations.php:921 lib/client-assets.php:1064
+msgid "Widgets"
+msgstr "小工具"
+
+#: languages/gutenberg-translations.php:915 lib/client-assets.php:1056
+msgid "Formatting"
+msgstr "格式設定"
+
+#: languages/gutenberg-translations.php:912 lib/client-assets.php:1052
+msgid "Common Blocks"
+msgstr "一般區塊"
+
+#: languages/gutenberg-translations.php:1045
+msgid "Align right"
+msgstr "靠右對齊"
+
+#: languages/gutenberg-translations.php:1041
+msgid "Align center"
+msgstr "置中"
+
+#: languages/gutenberg-translations.php:1037
+msgid "Align left"
+msgstr "靠左對齊"
+
+#. Description of the plugin/theme
+msgid "Printing since 1440. This is the development plugin for the new block editor in core."
+msgstr "西方活字印刷術源於 15 世紀，由 Gutenberg 所發明；為紀念這項偉大貢獻，便將為 WordPress 主程式開發的區塊式編輯器外掛命名為 Gutenberg。"
+
+#: languages/gutenberg-translations.php:1460 lib/client-assets.php:1243
+msgid "Add title"
+msgstr "新增標題"
+
+#: lib/class-wp-rest-blocks-controller.php:111
+msgid "The block’s title."
+msgstr "區塊標題。"
+
+#: lib/class-wp-rest-blocks-controller.php:106
+msgid "Unique identifier for the block."
+msgstr "區塊的唯一識別碼。"
+
+#: gutenberg.php:138
+msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/master/CONTRIBUTING.md\">contributing</a> file for more information."
+msgstr "Gutenberg 開發模式須要特定檔案才能建置。執行 <code>npm install</code> 以安裝相依性元件、執行 <code>npm run build</code> 以建置檔案，或執行 <code>npm run dev</code> 以建置檔案並檢視變更。如需詳細資訊，請參閱 <a href=\"https://github.com/WordPress/gutenberg/blob/master/CONTRIBUTING.md\" target=\"_blank\">Contributing</a> 這份文件。"
+
+#. Author of the plugin/theme
+msgid "Gutenberg Team"
+msgstr "Gutenberg 開發團隊"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin/theme
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: languages/gutenberg-translations.php:1266 lib/register.php:188
+msgid "Author"
+msgstr "作者"
+
+#: lib/register.php:184
+msgid "Slug"
+msgstr "代稱"
+
+#: lib/register.php:179
+msgid "Comments"
+msgstr "留言"
+
+#: languages/gutenberg-translations.php:816 lib/register.php:166
+msgid "Discussion"
+msgstr "討論"
+
+#: lib/register.php:150
+msgid "Custom Fields"
+msgstr "自訂欄位"
+
+#: lib/register.php:146
+msgid "Send Trackbacks"
+msgstr "傳送引用通知"
+
+#: languages/gutenberg-translations.php:837 lib/register.php:142
+msgid "Excerpt"
+msgstr "摘要"
+
+#: lib/register.php:112
+msgctxt "post format"
+msgid "Format"
+msgstr "格式"
+
+#: languages/gutenberg-translations.php:841 lib/register.php:108
+msgid "Publish"
+msgstr "發佈"
+
+#: languages/gutenberg-translations.php:44 lib/register.php:105
+msgid "Metadata"
+msgstr "中繼資料"
+
+#: languages/gutenberg-translations.php:70 lib/register.php:101
+msgid "Save"
+msgstr "儲存"
+
+#: lib/register.php:94
+msgid "Revisions"
+msgstr "內容修訂"
+
+#. translators: %s is the name of the plugin that generated this meta box.
+#: lib/meta-box-partial-page.php:261
+msgid "Gutenberg incompatible meta box, from the \"%s\" plugin."
+msgstr "%s 外掛的中繼資料欄位與 Gutenberg 編輯器不相容。"
+
+#: lib/client-assets.php:283
+msgid "F j, Y g:i a"
+msgstr "Y 年 n 月 j 日a g:i"
+
+#: lib/client-assets.php:282
+msgid "F j, Y"
+msgstr "Y 年 n 月 j 日"
+
+#: lib/client-assets.php:281
+msgid "g:i a"
+msgstr "a g:i"
+
+#. translators: %s: duration
+#: lib/client-assets.php:277
+msgid "%s ago"
+msgstr "%s前"
+
+#. translators: %s: duration
+#: lib/client-assets.php:275
+msgid "%s from now"
+msgstr "從現在起 %s後"
+
+#: lib/class-wp-rest-blocks-controller.php:116
+msgid "The block’s HTML content."
+msgstr "區塊的 HTML 內容。"
+
+#: lib/class-wp-rest-block-renderer-controller.php:94
+msgid "Sorry, you are not allowed to read Gutenberg blocks as this user."
+msgstr "很抱歉，這個使用者角色沒有權限讀取 Gutenberg 區塊。"
+
+#. translators: 1: block name
+#: lib/class-wp-block-type-registry.php:111
+msgid "Block type \"%s\" is not registered."
+msgstr "區塊類型 [%s] 尚未註冊。"
+
+#. translators: 1: block name
+#: lib/class-wp-block-type-registry.php:80
+msgid "Block type \"%s\" is already registered."
+msgstr "區塊類型 [%s] 已註冊。"
+
+#: lib/class-wp-block-type-registry.php:73
+msgid "Block type names must contain a namespace prefix. Example: my-plugin/my-custom-block-type"
+msgstr "區塊類型名稱必須包含名稱空間前置詞。例如：my-plugin/my-custom-block-type"
+
+#: lib/class-wp-block-type-registry.php:66
+msgid "Block type names must not contain uppercase characters."
+msgstr "區塊類型名稱不可包含大寫字元。"
+
+#: lib/class-wp-block-type-registry.php:60
+msgid "Block type names must be strings."
+msgstr "區塊類型名稱必須是字串。"
+
+#: gutenberg.php:381
+msgid "Toggle editor selection menu"
+msgstr "切換編輯器選取選單"
+
+#: gutenberg.php:260 gutenberg.php:383
+msgid "Classic Editor"
+msgstr "傳統編輯器"
+
+#. translators: %s: post title
+#: gutenberg.php:257
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "使用傳統編輯器編輯《%s》"
+
+#: gutenberg.php:125
+msgid "Gutenberg requires WordPress 4.9.6 or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Gutenberg 須要 WordPress 4.9.6 或更新版本才能正確執行。請在啟用 Gutenberg 前先為 WordPress 核心程式進行升級。"
+
+#: gutenberg.php:81
+msgid "Documentation"
+msgstr "線上說明"
+
+#: gutenberg.php:75
+msgid "Feedback"
+msgstr "意見反應"
+
+#: gutenberg.php:61 gutenberg.php:62
+msgid "Demo"
+msgstr "示範內容"
+
+#: core-blocks/latest-posts/index.php:31
+#: languages/gutenberg-translations.php:147
+msgid "(Untitled)"
+msgstr "(未命名)"
+
+#: core-blocks/categories/index.php:35
+msgid "Select Category"
+msgstr "選取分類"
